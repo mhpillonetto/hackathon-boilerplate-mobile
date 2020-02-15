@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>FB04497E-AF44-4B44-884D-11E2B916393A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FB04497E-AF44-4B44-884D-11E2B916393A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mobileBoilerplate project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mobileBoilerplate</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>602737740.4777</real>
+			<key>timeStoppedRecording</key>
+			<real>602737741.04433095</real>
+			<key>title</key>
+			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FB04497E-AF44-4B44-884D-11E2B916393A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

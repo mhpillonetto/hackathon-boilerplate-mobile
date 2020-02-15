@@ -1,16 +1,18 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { Text, Button } from 'react-native';
 
+import { Form, ScreenView } from '../components';
 
 const ExampleScreen = () => {
     return (
-        <View>
+        <ScreenView>
             <Text>Oi eu sou a tela de exemplo</Text>
             <Button
                 title="Go to Details"
                 onPress={() => props.navigation.navigate('Details')}
             />
-        </View>
+            <Form />
+        </ScreenView>
     )
 
 }
