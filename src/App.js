@@ -1,10 +1,12 @@
 import React from 'react';
-
 import Router from './Router';
 
+
 const App = props => {
-  return(
-    <Router/>
+  return (
+    //to do: usar o Router
+    <Router />
+
   )
 };
 

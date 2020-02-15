@@ -1,17 +1,20 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
-import { ScreenView } from '../components';
+import { View, Text, Button, Image, StyleSheet } from 'react-native';
+import { ScreenView, SimpleTextInput, MaterialButton } from '../components';
 
 const HomeScreen = props => {
     return (
         <ScreenView>
-            <Text>Oi eu sou a home</Text>
-            <Button
-                title="Ir para o perfil"
-                onPress={() => props.navigation.navigate('Perfil')}
-            />
+            <View style={{display: "flex", justifyContent: "space-evenly", flex:.5 }}>
+                <SimpleTextInput />
+                <MaterialButton text={"busca avançada"} onPress={()=>props.navigation.navigate("Advanced Search")}/>
+            </View>
+
         </ScreenView>
     )
 };
+
+const styles = StyleSheet.create({
+})
 
 export default HomeScreen;

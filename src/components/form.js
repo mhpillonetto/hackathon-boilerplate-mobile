@@ -6,6 +6,7 @@ import * as Yup from 'yup';
 import { withFormik } from 'formik';
 
 const Form = (props) => (
+    console.log(props),
     <View style={styles.container}>
         <TextInput
             value={props.values.email}

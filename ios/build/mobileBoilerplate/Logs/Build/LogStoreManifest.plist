@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FB04497E-AF44-4B44-884D-11E2B916393A</key>
+		<key>A8DF0AD2-4DA5-41DE-8076-2F43AED56E2B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FB04497E-AF44-4B44-884D-11E2B916393A.xcactivitylog</string>
+			<string>A8DF0AD2-4DA5-41DE-8076-2F43AED56E2B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>mobileBoilerplate project</string>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>602737740.4777</real>
+			<real>603436713.72063303</real>
 			<key>timeStoppedRecording</key>
-			<real>602737741.04433095</real>
+			<real>603436714.90923297</real>
 			<key>title</key>
 			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>FB04497E-AF44-4B44-884D-11E2B916393A</string>
+			<string>A8DF0AD2-4DA5-41DE-8076-2F43AED56E2B</string>
+		</dict>
+		<key>B57F368F-EFBC-4988-83C4-C9A5A4209968</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B57F368F-EFBC-4988-83C4-C9A5A4209968.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mobileBoilerplate project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mobileBoilerplate</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>603427605.90392494</real>
+			<key>timeStoppedRecording</key>
+			<real>603427614.16440201</real>
+			<key>title</key>
+			<string>Building workspace mobileBoilerplate with scheme mobileBoilerplate and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B57F368F-EFBC-4988-83C4-C9A5A4209968</string>
 		</dict>
 	</dict>
 </dict>
