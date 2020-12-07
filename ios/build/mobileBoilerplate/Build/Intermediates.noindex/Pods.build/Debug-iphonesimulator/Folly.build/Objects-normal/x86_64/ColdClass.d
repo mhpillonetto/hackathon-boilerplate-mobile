@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Hique/dev/hackathon-boilerplate/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/lang/ColdClass.cpp \
-  /Users/Hique/dev/hackathon-boilerplate/hackathon-boilerplate-mobile/ios/Pods/Target\ Support\ Files/Folly/Folly-prefix.pch \
-  /Users/Hique/dev/hackathon-boilerplate/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/lang/ColdClass.h \
-  /Users/Hique/dev/hackathon-boilerplate/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/CppAttributes.h
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/lang/ColdClass.cpp \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Target\ Support\ Files/Folly/Folly-prefix.pch \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/lang/ColdClass.h \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/CppAttributes.h
