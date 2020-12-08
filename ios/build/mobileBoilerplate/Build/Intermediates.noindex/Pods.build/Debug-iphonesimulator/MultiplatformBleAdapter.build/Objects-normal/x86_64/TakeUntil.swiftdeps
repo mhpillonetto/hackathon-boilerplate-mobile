@@ -1,0 +1,312 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "takeUntil"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cancelable"
+- "Disposable"
+- !private "Disposables"
+- "E"
+- "Element"
+- "Event"
+- "LockOwnerType"
+- "O"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "Other"
+- "Parent"
+- "Producer"
+- "RecursiveLock"
+- "SingleAssignmentDisposable"
+- "Sink"
+- "SynchronizedOnType"
+- "TakeUntil"
+- "TakeUntilSink"
+- !private "TakeUntilSinkOther"
+- !private "_other"
+- !private "_parent"
+- !private "_source"
+- !private "_subscription"
+- !private "asObservable"
+- !private "dispose"
+- !private "forwardOn"
+- !private "synchronizedOn"
+depends-member:
+- ["s7CVarArgP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "dispose"]
+- ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "setDisposable"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "Disposables"]
+- ["23MultiplatformBleAdapter10DisposableP", "E"]
+- ["23MultiplatformBleAdapter10DisposableP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "TakeUntilSinkOther"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- ["23MultiplatformBleAdapter10DisposableP", "_lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_parent"]
+- ["23MultiplatformBleAdapter10DisposableP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "dispose"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "forwardOn"]
+- ["23MultiplatformBleAdapter10DisposableP", "init"]
+- ["23MultiplatformBleAdapter10DisposableP", "lock"]
+- ["23MultiplatformBleAdapter10DisposableP", "on"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "parent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "run"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "setDisposable"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "synchronizedOn"]
+- ["23MultiplatformBleAdapter10DisposableP", "unlock"]
+- !private ["23MultiplatformBleAdapter11DisposablesV", "create"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "dispose"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "setDisposable"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["23MultiplatformBleAdapter5EventO", "completed"]
+- ["23MultiplatformBleAdapter5EventO", "error"]
+- ["23MultiplatformBleAdapter5EventO", "next"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "completed"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "error"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "next"]
+- ["SH", "init"]
+- !private ["23MultiplatformBleAdapter4LockP", "Disposables"]
+- ["23MultiplatformBleAdapter4LockP", "E"]
+- ["23MultiplatformBleAdapter4LockP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter4LockP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter4LockP", "TakeUntilSinkOther"]
+- ["23MultiplatformBleAdapter4LockP", ""]
+- ["23MultiplatformBleAdapter4LockP", "_lock"]
+- !private ["23MultiplatformBleAdapter4LockP", "_parent"]
+- !private ["23MultiplatformBleAdapter4LockP", "_subscription"]
+- ["23MultiplatformBleAdapter4LockP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter4LockP", "dispose"]
+- !private ["23MultiplatformBleAdapter4LockP", "forwardOn"]
+- ["23MultiplatformBleAdapter4LockP", "init"]
+- ["23MultiplatformBleAdapter4LockP", "lock"]
+- ["23MultiplatformBleAdapter4LockP", "on"]
+- !private ["23MultiplatformBleAdapter4LockP", "parent"]
+- !private ["23MultiplatformBleAdapter4LockP", "run"]
+- !private ["23MultiplatformBleAdapter4LockP", "subscription"]
+- !private ["23MultiplatformBleAdapter4LockP", "synchronizedOn"]
+- ["23MultiplatformBleAdapter4LockP", "unlock"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "E"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "TakeUntilSinkOther"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", ""]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_subscription"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "forwardOn"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "init"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "lock"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "on"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "run"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "subscription"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "synchronizedOn"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "unlock"]
+- ["So9NSLockingP", "init"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "init"]
+- ["So15NSRecursiveLockC", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "Cancelable"]
+- ["23MultiplatformBleAdapter10ObservableC", "Disposable"]
+- ["23MultiplatformBleAdapter10ObservableC", "Observable"]
+- ["23MultiplatformBleAdapter10ObservableC", "ObserverType"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "TakeUntilSink"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "_other"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source"]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "other"]
+- ["23MultiplatformBleAdapter10ObservableC", "run"]
+- ["23MultiplatformBleAdapter10ObservableC", "source"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "subscribe"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Observable"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ObservableType"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "TakeUntil"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "TakeUntilSink"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_other"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "other"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "subscribe"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "Observable"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "ObservableType"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "TakeUntil"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "TakeUntilSink"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_other"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "other"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "subscribe"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "takeUntil"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "E"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "TakeUntilSinkOther"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", ""]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_subscription"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "forwardOn"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "init"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "lock"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "run"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "subscription"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronizedOn"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "unlock"]
+- ["23MultiplatformBleAdapter8ProducerC", "Cancelable"]
+- ["23MultiplatformBleAdapter8ProducerC", "Disposable"]
+- ["23MultiplatformBleAdapter8ProducerC", "Observable"]
+- ["23MultiplatformBleAdapter8ProducerC", "ObserverType"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "TakeUntilSink"]
+- !private ["23MultiplatformBleAdapter8ProducerC", ""]
+- ["23MultiplatformBleAdapter8ProducerC", "_other"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source"]
+- ["23MultiplatformBleAdapter8ProducerC", "init"]
+- ["23MultiplatformBleAdapter8ProducerC", "other"]
+- ["23MultiplatformBleAdapter8ProducerC", "run"]
+- ["23MultiplatformBleAdapter8ProducerC", "source"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "dispose"]
+- ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "setDisposable"]
+- ["23MultiplatformBleAdapter4SinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter4SinkC", "Disposable"]
+- !private ["23MultiplatformBleAdapter4SinkC", "Disposables"]
+- ["23MultiplatformBleAdapter4SinkC", "E"]
+- ["23MultiplatformBleAdapter4SinkC", "Event"]
+- ["23MultiplatformBleAdapter4SinkC", "Parent"]
+- ["23MultiplatformBleAdapter4SinkC", "RecursiveLock"]
+- ["23MultiplatformBleAdapter4SinkC", "TakeUntil"]
+- !private ["23MultiplatformBleAdapter4SinkC", "TakeUntilSinkOther"]
+- !private ["23MultiplatformBleAdapter4SinkC", ""]
+- ["23MultiplatformBleAdapter4SinkC", "_lock"]
+- ["23MultiplatformBleAdapter4SinkC", "_parent"]
+- ["23MultiplatformBleAdapter4SinkC", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter4SinkC", "dispose"]
+- !private ["23MultiplatformBleAdapter4SinkC", "forwardOn"]
+- ["23MultiplatformBleAdapter4SinkC", "init"]
+- ["23MultiplatformBleAdapter4SinkC", "lock"]
+- ["23MultiplatformBleAdapter4SinkC", "on"]
+- ["23MultiplatformBleAdapter4SinkC", "parent"]
+- ["23MultiplatformBleAdapter4SinkC", "run"]
+- !private ["23MultiplatformBleAdapter4SinkC", "synchronizedOn"]
+- ["23MultiplatformBleAdapter4SinkC", "unlock"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "E"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "TakeUntilSinkOther"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", ""]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_subscription"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "forwardOn"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "init"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "lock"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "on"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "run"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "subscription"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "synchronizedOn"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "unlock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "23MultiplatformBleAdapter10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "23MultiplatformBleAdapter11DisposablesV"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- "SQ"
+- "23MultiplatformBleAdapter5EventO"
+- "23MultiplatformBleAdapter16EventConvertibleP"
+- "SH"
+- "23MultiplatformBleAdapter4LockP"
+- "23MultiplatformBleAdapter13LockOwnerTypeP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- "23MultiplatformBleAdapter8ProducerC"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- "23MultiplatformBleAdapter4SinkC"
+- "23MultiplatformBleAdapter18SynchronizedOnTypeP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c821ea1259e8ad233b0aacd9b40a2fc3"

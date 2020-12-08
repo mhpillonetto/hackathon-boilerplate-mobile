@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BluetoothState"
+provides-nominal:
+- "23MultiplatformBleAdapter14BluetoothStateO"
+provides-member:
+- ["23MultiplatformBleAdapter14BluetoothStateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "BluetoothState"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "~="
+depends-member:
+- ["23MultiplatformBleAdapter14BluetoothStateO", "=="]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "Default_RawValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "RawValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", ""]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "_Default_RawValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "_rawHashValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "hash"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "hashValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "init"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "poweredOff"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "poweredOn"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "rawValue"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "resetting"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "unauthorized"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "unknown"]
+- ["23MultiplatformBleAdapter14BluetoothStateO", "unsupported"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "=="]
+- ["23MultiplatformBleAdapter8LoggableP", "Default_RawValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "RawValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "_Default_RawValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "_rawHashValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "hash"]
+- ["23MultiplatformBleAdapter8LoggableP", "hashValue"]
+- ["23MultiplatformBleAdapter8LoggableP", "init"]
+- ["23MultiplatformBleAdapter8LoggableP", "rawValue"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "23MultiplatformBleAdapter14BluetoothStateO"
+- "SQ"
+- "SH"
+- "23MultiplatformBleAdapter8LoggableP"
+- "SY"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "10b7a590c2d5acee5d164e9b189dc98b"

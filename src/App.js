@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Router from './Router';
+import {HomeScreen} from './screens';
 
 const App = props => {
   return(
-    <Router/>
+    <HomeScreen/>
   )
 };
 

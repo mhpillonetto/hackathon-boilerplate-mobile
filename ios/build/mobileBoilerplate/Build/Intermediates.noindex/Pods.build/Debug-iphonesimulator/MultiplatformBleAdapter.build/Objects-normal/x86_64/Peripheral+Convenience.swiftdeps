@@ -1,0 +1,278 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["23MultiplatformBleAdapter10PeripheralC", ""]
+- ["23MultiplatformBleAdapter10PeripheralC", "service"]
+- ["23MultiplatformBleAdapter10PeripheralC", "characteristic"]
+- ["23MultiplatformBleAdapter10PeripheralC", "descriptor"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorWrite"]
+- ["23MultiplatformBleAdapter10PeripheralC", "writeValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorValueUpdate"]
+- ["23MultiplatformBleAdapter10PeripheralC", "readValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotifyValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotificationAndMonitorUpdates"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverDescriptors"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorWrite"]
+- ["23MultiplatformBleAdapter10PeripheralC", "writeValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorValueUpdate"]
+- ["23MultiplatformBleAdapter10PeripheralC", "readValue"]
+provides-dynamic-lookup:
+- "characteristic"
+- "descriptor"
+- "discoverDescriptors"
+- "monitorValueUpdate"
+- "monitorWrite"
+- "readValue"
+- "service"
+- "setNotificationAndMonitorUpdates"
+- "setNotifyValue"
+- "writeValue"
+depends-top-level:
+- "=="
+- "??"
+- !private "Array"
+- "BluetoothError"
+- "Bool"
+- "CBCharacteristicWriteType"
+- "Characteristic"
+- "CharacteristicIdentifier"
+- "Data"
+- "Descriptor"
+- "DescriptorIdentifier"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Observable"
+- "Peripheral"
+- "Service"
+- "ServiceIdentifier"
+- !private "characteristic"
+- !private "descriptor"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["SK", ""]
+- !private ["SK", "first"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", ""]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "destroyed"]
+- !private ["s7CVarArgP", "first"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", ""]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "descriptors"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "uuid"]
+- !private ["23MultiplatformBleAdapter24CharacteristicIdentifierP", "service"]
+- !private ["23MultiplatformBleAdapter24CharacteristicIdentifierP", "uuid"]
+- !private ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "error"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "destroyed"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "error"]
+- !private ["Se", "first"]
+- !private ["23MultiplatformBleAdapter10DescriptorC", "uuid"]
+- !private ["23MultiplatformBleAdapter20DescriptorIdentifierP", "characteristic"]
+- !private ["23MultiplatformBleAdapter20DescriptorIdentifierP", "uuid"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "error"]
+- !private ["SE", "first"]
+- !private ["SQ", "BluetoothError"]
+- !private ["SQ", "Observable"]
+- !private ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "characteristics"]
+- !private ["SQ", "descriptor"]
+- !private ["SQ", "descriptors"]
+- !private ["SQ", "destroyed"]
+- !private ["SQ", "discoverCharacteristics"]
+- !private ["SQ", "discoverDescriptors"]
+- !private ["SQ", "discoverServices"]
+- !private ["SQ", "error"]
+- !private ["SQ", "first"]
+- !private ["SQ", "monitorValueUpdate"]
+- !private ["SQ", "monitorWrite"]
+- !private ["SQ", "readValue"]
+- !private ["SQ", "service"]
+- !private ["SQ", "services"]
+- !private ["SQ", "setNotificationAndMonitorUpdates"]
+- !private ["SQ", "setNotifyValue"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "writeValue"]
+- !private ["s5ErrorP", "destroyed"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "error"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "error"]
+- !private ["SH", "first"]
+- !private ["St", "Element"]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSObjectC", ""]
+- !private ["23MultiplatformBleAdapter10ObservableC", ""]
+- !private ["23MultiplatformBleAdapter10ObservableC", "deferred"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "error"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "filter"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "flatMap"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "from"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "just"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "take"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "error"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "filter"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "flatMap"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "from"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "just"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "take"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "error"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "filter"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "flatMap"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "from"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "just"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "take"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "error"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "BluetoothError"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Bool"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CBCharacteristicWriteType"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Characteristic"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CharacteristicIdentifier"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Data"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Descriptor"]
+- ["23MultiplatformBleAdapter10PeripheralC", "DescriptorIdentifier"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Observable"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Service"]
+- ["23MultiplatformBleAdapter10PeripheralC", "ServiceIdentifier"]
+- ["23MultiplatformBleAdapter10PeripheralC", ""]
+- ["23MultiplatformBleAdapter10PeripheralC", "characteristic"]
+- ["23MultiplatformBleAdapter10PeripheralC", "descriptor"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "discoverServices"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorValueUpdate"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorWrite"]
+- ["23MultiplatformBleAdapter10PeripheralC", "readValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "service"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "services"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotificationAndMonitorUpdates"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotifyValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "writeValue"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "first"]
+- !private ["23MultiplatformBleAdapter7ServiceC", ""]
+- !private ["23MultiplatformBleAdapter7ServiceC", "characteristics"]
+- !private ["23MultiplatformBleAdapter7ServiceC", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter7ServiceC", "uuid"]
+- !private ["23MultiplatformBleAdapter17ServiceIdentifierP", "uuid"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "characteristics"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "descriptors"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "uuid"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "error"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "23MultiplatformBleAdapter14BluetoothErrorO"
+- !private "s7CVarArgP"
+- !private "23MultiplatformBleAdapter14CharacteristicC"
+- !private "23MultiplatformBleAdapter24CharacteristicIdentifierP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "23MultiplatformBleAdapter10DescriptorC"
+- !private "23MultiplatformBleAdapter20DescriptorIdentifierP"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "St"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- !private "23MultiplatformBleAdapter14ObservableTypeP"
+- !private "Sq"
+- "23MultiplatformBleAdapter10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "23MultiplatformBleAdapter7ServiceC"
+- !private "23MultiplatformBleAdapter17ServiceIdentifierP"
+- !private "23MultiplatformBleAdapter16UUIDIdentifiableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "62d70d17aa8a8720ff5128840e813893"

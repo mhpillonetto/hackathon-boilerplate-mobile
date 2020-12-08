@@ -1,0 +1,1254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCBPeripheral"
+provides-nominal:
+- "23MultiplatformBleAdapter14RxCBPeripheralC"
+provides-member:
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", ""]
+provides-dynamic-lookup:
+- "canSendWriteWithoutResponse"
+- "delegate"
+- "discoverCharacteristics"
+- "discoverDescriptors"
+- "discoverIncludedServices"
+- "discoverServices"
+- "getInternalPeripheralDelegateRef"
+- "identifier"
+- "internalDelegate"
+- "internalPeripheralDelegateWrappers"
+- "internalPeripheralDelegateWrappersLock"
+- "maximumWriteValueLength"
+- "name"
+- "objectId"
+- "peripheral"
+- "peripheralDidDiscoverCharacteristicsForServiceSubject"
+- "peripheralDidDiscoverDescriptorsForCharacteristicSubject"
+- "peripheralDidDiscoverIncludedServicesForServiceSubject"
+- "peripheralDidDiscoverServicesSubject"
+- "peripheralDidModifyServicesSubject"
+- "peripheralDidReadRSSISubject"
+- "peripheralDidUpdateName"
+- "peripheralDidUpdateNameSubject"
+- "peripheralDidUpdateNotificationStateForCharacteristicSubject"
+- "peripheralDidUpdateValueForCharacteristicSubject"
+- "peripheralDidUpdateValueForDescriptorSubject"
+- "peripheralDidWriteValueForCharacteristicSubject"
+- "peripheralDidWriteValueForDescriptorSubject"
+- "peripheralIsReady"
+- "peripheralIsReadyToSendWriteWithoutResponseSubject"
+- "putInternalPeripheralDelegateRef"
+- "readRSSI"
+- "readValue"
+- "refCount"
+- "rx_didDiscoverCharacteristicsForService"
+- "rx_didDiscoverDescriptorsForCharacteristic"
+- "rx_didDiscoverIncludedServicesForService"
+- "rx_didDiscoverServices"
+- "rx_didModifyServices"
+- "rx_didReadRSSI"
+- "rx_didUpdateName"
+- "rx_didUpdateNotificationStateForCharacteristic"
+- "rx_didUpdateValueForCharacteristic"
+- "rx_didUpdateValueForDescriptor"
+- "rx_didWriteValueForCharacteristic"
+- "rx_didWriteValueForDescriptor"
+- "rx_isReadyToSendWriteWithoutResponse"
+- "services"
+- "setNotifyValue"
+- "state"
+- "writeValue"
+depends-top-level:
+- !private "+="
+- !private "-="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CBCharacteristic"
+- "CBCharacteristicWriteType"
+- "CBDescriptor"
+- "CBPeripheral"
+- "CBPeripheralDelegate"
+- "CBPeripheralState"
+- "CBService"
+- "CBUUID"
+- "CastingPrecedence"
+- "Data"
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "InternalPeripheralDelegate"
+- "InternalPeripheralDelegateWrapper"
+- "NSLock"
+- "NSNumber"
+- "NSObject"
+- "NSUUID"
+- !private "ObjectIdentifier"
+- "Observable"
+- "PublishSubject"
+- !private "RxBluetoothKitLog"
+- "RxCBCharacteristic"
+- "RxCBDescriptor"
+- "RxCBPeripheral"
+- "RxCBService"
+- "RxCharacteristicType"
+- "RxDescriptorType"
+- "RxPeripheralType"
+- "RxServiceType"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UUID"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "internalDelegate"
+- !private "internalPeripheralDelegateWrappers"
+- !private "internalPeripheralDelegateWrappersLock"
+- !private "peripheral"
+- !private "peripheralDidDiscoverCharacteristicsForServiceSubject"
+- !private "peripheralDidDiscoverDescriptorsForCharacteristicSubject"
+- !private "peripheralDidDiscoverIncludedServicesForServiceSubject"
+- !private "peripheralDidDiscoverServicesSubject"
+- !private "peripheralDidModifyServicesSubject"
+- !private "peripheralDidReadRSSISubject"
+- !private "peripheralDidUpdateNameSubject"
+- !private "peripheralDidUpdateNotificationStateForCharacteristicSubject"
+- !private "peripheralDidUpdateValueForCharacteristicSubject"
+- !private "peripheralDidUpdateValueForDescriptorSubject"
+- !private "peripheralDidWriteValueForCharacteristicSubject"
+- !private "peripheralDidWriteValueForDescriptorSubject"
+- !private "peripheralIsReadyToSendWriteWithoutResponseSubject"
+- !private "refCount"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "logDescription"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "logDescription"]
+- !private ["SK", "map"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["So11CBAttributeC", ""]
+- !private ["So11CBAttributeC", "characteristics"]
+- !private ["So11CBAttributeC", "descriptors"]
+- !private ["So11CBAttributeC", "includedServices"]
+- !private ["So11CBAttributeC", "isNotifying"]
+- !private ["So11CBAttributeC", "logDescription"]
+- !private ["So11CBAttributeC", "value"]
+- !private ["So16CBCharacteristicC", ""]
+- !private ["So16CBCharacteristicC", "descriptors"]
+- !private ["So16CBCharacteristicC", "isNotifying"]
+- !private ["So16CBCharacteristicC", "logDescription"]
+- !private ["So16CBCharacteristicC", "value"]
+- !private ["So25CBCharacteristicWriteTypeV", ""]
+- !private ["So25CBCharacteristicWriteTypeV", "logDescription"]
+- !private ["So12CBDescriptorC", ""]
+- !private ["So12CBDescriptorC", "logDescription"]
+- !private ["So12CBDescriptorC", "value"]
+- ["So6CBPeerC", ""]
+- !private ["So6CBPeerC", "canSendWriteWithoutResponse"]
+- !private ["So6CBPeerC", "delegate"]
+- !private ["So6CBPeerC", "discoverCharacteristics"]
+- !private ["So6CBPeerC", "discoverDescriptors"]
+- !private ["So6CBPeerC", "discoverDescriptorsForCharacteristic"]
+- !private ["So6CBPeerC", "discoverIncludedServices"]
+- !private ["So6CBPeerC", "discoverServices"]
+- !private ["So6CBPeerC", "logDescription"]
+- !private ["So6CBPeerC", "maximumWriteValueLength"]
+- !private ["So6CBPeerC", "maximumWriteValueLengthForType"]
+- !private ["So6CBPeerC", "name"]
+- !private ["So6CBPeerC", "readRSSI"]
+- !private ["So6CBPeerC", "readValue"]
+- !private ["So6CBPeerC", "readValueForCharacteristic"]
+- !private ["So6CBPeerC", "readValueForDescriptor"]
+- !private ["So6CBPeerC", "services"]
+- !private ["So6CBPeerC", "setNotifyValue"]
+- !private ["So6CBPeerC", "state"]
+- !private ["So6CBPeerC", "value"]
+- !private ["So6CBPeerC", "writeValue"]
+- !private ["So12CBPeripheralC", ""]
+- !private ["So12CBPeripheralC", "canSendWriteWithoutResponse"]
+- !private ["So12CBPeripheralC", "delegate"]
+- !private ["So12CBPeripheralC", "discoverCharacteristics"]
+- !private ["So12CBPeripheralC", "discoverDescriptors"]
+- !private ["So12CBPeripheralC", "discoverIncludedServices"]
+- !private ["So12CBPeripheralC", "discoverServices"]
+- !private ["So12CBPeripheralC", "logDescription"]
+- !private ["So12CBPeripheralC", "maximumWriteValueLength"]
+- !private ["So12CBPeripheralC", "name"]
+- !private ["So12CBPeripheralC", "readRSSI"]
+- !private ["So12CBPeripheralC", "readValue"]
+- !private ["So12CBPeripheralC", "services"]
+- !private ["So12CBPeripheralC", "setNotifyValue"]
+- !private ["So12CBPeripheralC", "state"]
+- !private ["So12CBPeripheralC", "value"]
+- !private ["So12CBPeripheralC", "writeValue"]
+- ["So20CBPeripheralDelegateP", "PublishSubject"]
+- !private ["So20CBPeripheralDelegateP", "RxBluetoothKitLog"]
+- !private ["So20CBPeripheralDelegateP", "RxCBCharacteristic"]
+- !private ["So20CBPeripheralDelegateP", "RxCBDescriptor"]
+- !private ["So20CBPeripheralDelegateP", "RxCBService"]
+- !private ["So20CBPeripheralDelegateP", "String"]
+- !private ["So20CBPeripheralDelegateP", ""]
+- ["So20CBPeripheralDelegateP", "deinit"]
+- ["So20CBPeripheralDelegateP", "init"]
+- ["So20CBPeripheralDelegateP", "peripheral"]
+- ["So20CBPeripheralDelegateP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidDiscoverServicesSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidModifyServicesSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidReadRSSISubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateName"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateNameSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateRSSI"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidUpdateValueForDescriptorSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidWriteValueForCharacteristicSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["So20CBPeripheralDelegateP", "peripheralIsReady"]
+- ["So20CBPeripheralDelegateP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- ["So20CBPeripheralDelegateP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["So9CBServiceC", ""]
+- !private ["So9CBServiceC", "characteristics"]
+- !private ["So9CBServiceC", "includedServices"]
+- !private ["So9CBServiceC", "logDescription"]
+- !private ["So6CBUUIDC", ""]
+- ["s7CVarArgP", "PublishSubject"]
+- !private ["s7CVarArgP", "RxBluetoothKitLog"]
+- !private ["s7CVarArgP", "RxCBCharacteristic"]
+- !private ["s7CVarArgP", "RxCBDescriptor"]
+- !private ["s7CVarArgP", "RxCBService"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "canSendWriteWithoutResponse"]
+- !private ["s7CVarArgP", "characteristics"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "descriptors"]
+- !private ["s7CVarArgP", "discoverCharacteristics"]
+- !private ["s7CVarArgP", "discoverDescriptors"]
+- !private ["s7CVarArgP", "discoverIncludedServices"]
+- !private ["s7CVarArgP", "discoverServices"]
+- !private ["s7CVarArgP", "includedServices"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "isNotifying"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "logDescription"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "maximumWriteValueLength"]
+- !private ["s7CVarArgP", "name"]
+- ["s7CVarArgP", "peripheral"]
+- !private ["s7CVarArgP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["s7CVarArgP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["s7CVarArgP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["s7CVarArgP", "peripheralDidDiscoverServicesSubject"]
+- !private ["s7CVarArgP", "peripheralDidModifyServicesSubject"]
+- !private ["s7CVarArgP", "peripheralDidReadRSSISubject"]
+- ["s7CVarArgP", "peripheralDidUpdateName"]
+- !private ["s7CVarArgP", "peripheralDidUpdateNameSubject"]
+- !private ["s7CVarArgP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["s7CVarArgP", "peripheralDidUpdateRSSI"]
+- !private ["s7CVarArgP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["s7CVarArgP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["s7CVarArgP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["s7CVarArgP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["s7CVarArgP", "peripheralIsReady"]
+- ["s7CVarArgP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["s7CVarArgP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["s7CVarArgP", "readRSSI"]
+- !private ["s7CVarArgP", "readValue"]
+- !private ["s7CVarArgP", "services"]
+- !private ["s7CVarArgP", "setNotifyValue"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "writeValue"]
+- ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "onNext"]
+- !private ["Sl", ""]
+- ["Sl", "init"]
+- !private ["Sl", "logDescription"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "logDescription"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "PublishSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "RxBluetoothKitLog"]
+- !private ["s28CustomDebugStringConvertibleP", "RxCBCharacteristic"]
+- !private ["s28CustomDebugStringConvertibleP", "RxCBDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "RxCBService"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "canSendWriteWithoutResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristics"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptors"]
+- !private ["s28CustomDebugStringConvertibleP", "discoverCharacteristics"]
+- !private ["s28CustomDebugStringConvertibleP", "discoverDescriptors"]
+- !private ["s28CustomDebugStringConvertibleP", "discoverIncludedServices"]
+- !private ["s28CustomDebugStringConvertibleP", "discoverServices"]
+- !private ["s28CustomDebugStringConvertibleP", "includedServices"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isNotifying"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "logDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumWriteValueLength"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- ["s28CustomDebugStringConvertibleP", "peripheral"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidDiscoverServicesSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidModifyServicesSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidReadRSSISubject"]
+- ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateName"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateNameSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateRSSI"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["s28CustomDebugStringConvertibleP", "peripheralIsReady"]
+- ["s28CustomDebugStringConvertibleP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "readRSSI"]
+- !private ["s28CustomDebugStringConvertibleP", "readValue"]
+- !private ["s28CustomDebugStringConvertibleP", "services"]
+- !private ["s28CustomDebugStringConvertibleP", "setNotifyValue"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "writeValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "logDescription"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "PublishSubject"]
+- !private ["s23CustomStringConvertibleP", "RxBluetoothKitLog"]
+- !private ["s23CustomStringConvertibleP", "RxCBCharacteristic"]
+- !private ["s23CustomStringConvertibleP", "RxCBDescriptor"]
+- !private ["s23CustomStringConvertibleP", "RxCBService"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "canSendWriteWithoutResponse"]
+- !private ["s23CustomStringConvertibleP", "characteristics"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "descriptors"]
+- !private ["s23CustomStringConvertibleP", "discoverCharacteristics"]
+- !private ["s23CustomStringConvertibleP", "discoverDescriptors"]
+- !private ["s23CustomStringConvertibleP", "discoverIncludedServices"]
+- !private ["s23CustomStringConvertibleP", "discoverServices"]
+- !private ["s23CustomStringConvertibleP", "includedServices"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isNotifying"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "logDescription"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "maximumWriteValueLength"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- ["s23CustomStringConvertibleP", "peripheral"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidDiscoverServicesSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidModifyServicesSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidReadRSSISubject"]
+- ["s23CustomStringConvertibleP", "peripheralDidUpdateName"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidUpdateNameSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["s23CustomStringConvertibleP", "peripheralDidUpdateRSSI"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["s23CustomStringConvertibleP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["s23CustomStringConvertibleP", "peripheralIsReady"]
+- ["s23CustomStringConvertibleP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["s23CustomStringConvertibleP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["s23CustomStringConvertibleP", "readRSSI"]
+- !private ["s23CustomStringConvertibleP", "readValue"]
+- !private ["s23CustomStringConvertibleP", "services"]
+- !private ["s23CustomStringConvertibleP", "setNotifyValue"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "writeValue"]
+- !private ["10Foundation4DataV", ""]
+- !private ["10Foundation4DataV", "logDescription"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "logDescription"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "init"]
+- !private ["Se", "logDescription"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "onNext"]
+- ["SE", "init"]
+- !private ["SE", "logDescription"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", "PublishSubject"]
+- !private ["SQ", "RxBluetoothKitLog"]
+- !private ["SQ", "RxCBCharacteristic"]
+- !private ["SQ", "RxCBDescriptor"]
+- !private ["SQ", "RxCBService"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "canSendWriteWithoutResponse"]
+- !private ["SQ", "characteristics"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "descriptors"]
+- !private ["SQ", "discoverCharacteristics"]
+- !private ["SQ", "discoverDescriptors"]
+- !private ["SQ", "discoverIncludedServices"]
+- !private ["SQ", "discoverServices"]
+- !private ["SQ", "includedServices"]
+- ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isNotifying"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "logDescription"]
+- !private ["SQ", "map"]
+- !private ["SQ", "maximumWriteValueLength"]
+- !private ["SQ", "name"]
+- ["SQ", "peripheral"]
+- !private ["SQ", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["SQ", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["SQ", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["SQ", "peripheralDidDiscoverServicesSubject"]
+- !private ["SQ", "peripheralDidModifyServicesSubject"]
+- !private ["SQ", "peripheralDidReadRSSISubject"]
+- ["SQ", "peripheralDidUpdateName"]
+- !private ["SQ", "peripheralDidUpdateNameSubject"]
+- !private ["SQ", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["SQ", "peripheralDidUpdateRSSI"]
+- !private ["SQ", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["SQ", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["SQ", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["SQ", "peripheralDidWriteValueForDescriptorSubject"]
+- ["SQ", "peripheralIsReady"]
+- ["SQ", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["SQ", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["SQ", "readRSSI"]
+- !private ["SQ", "readValue"]
+- !private ["SQ", "services"]
+- !private ["SQ", "setNotifyValue"]
+- !private ["SQ", "state"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unlock"]
+- !private ["SQ", "value"]
+- !private ["SQ", "writeValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "logDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "PublishSubject"]
+- !private ["SH", "RxBluetoothKitLog"]
+- !private ["SH", "RxCBCharacteristic"]
+- !private ["SH", "RxCBDescriptor"]
+- !private ["SH", "RxCBService"]
+- !private ["SH", "String"]
+- !private ["SH", ""]
+- !private ["SH", "canSendWriteWithoutResponse"]
+- !private ["SH", "characteristics"]
+- !private ["SH", "delegate"]
+- !private ["SH", "descriptors"]
+- !private ["SH", "discoverCharacteristics"]
+- !private ["SH", "discoverDescriptors"]
+- !private ["SH", "discoverIncludedServices"]
+- !private ["SH", "discoverServices"]
+- !private ["SH", "includedServices"]
+- ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "isNotifying"]
+- !private ["SH", "lock"]
+- !private ["SH", "logDescription"]
+- !private ["SH", "map"]
+- !private ["SH", "maximumWriteValueLength"]
+- !private ["SH", "name"]
+- ["SH", "peripheral"]
+- !private ["SH", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["SH", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["SH", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["SH", "peripheralDidDiscoverServicesSubject"]
+- !private ["SH", "peripheralDidModifyServicesSubject"]
+- !private ["SH", "peripheralDidReadRSSISubject"]
+- ["SH", "peripheralDidUpdateName"]
+- !private ["SH", "peripheralDidUpdateNameSubject"]
+- !private ["SH", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["SH", "peripheralDidUpdateRSSI"]
+- !private ["SH", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["SH", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["SH", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["SH", "peripheralDidWriteValueForDescriptorSubject"]
+- ["SH", "peripheralIsReady"]
+- ["SH", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["SH", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["SH", "readRSSI"]
+- !private ["SH", "readValue"]
+- !private ["SH", "services"]
+- !private ["SH", "setNotifyValue"]
+- !private ["SH", "state"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unlock"]
+- !private ["SH", "value"]
+- !private ["SH", "writeValue"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "canSendWriteWithoutResponse"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "characteristics"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "delegate"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "descriptors"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "discoverIncludedServices"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "discoverServices"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "includedServices"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "isNotifying"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "logDescription"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "maximumWriteValueLength"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "name"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "readRSSI"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "readValue"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "services"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "setNotifyValue"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "state"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "value"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "writeValue"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "logDescription"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "logDescription"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "canSendWriteWithoutResponse"]
+- !private ["So9NSCopyingP", "delegate"]
+- !private ["So9NSCopyingP", "discoverCharacteristics"]
+- !private ["So9NSCopyingP", "discoverDescriptors"]
+- !private ["So9NSCopyingP", "discoverDescriptorsForCharacteristic"]
+- !private ["So9NSCopyingP", "discoverIncludedServices"]
+- !private ["So9NSCopyingP", "discoverServices"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "logDescription"]
+- !private ["So9NSCopyingP", "maximumWriteValueLength"]
+- !private ["So9NSCopyingP", "maximumWriteValueLengthForType"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "readRSSI"]
+- !private ["So9NSCopyingP", "readValue"]
+- !private ["So9NSCopyingP", "readValueForCharacteristic"]
+- !private ["So9NSCopyingP", "readValueForDescriptor"]
+- !private ["So9NSCopyingP", "services"]
+- !private ["So9NSCopyingP", "setNotifyValue"]
+- !private ["So9NSCopyingP", "state"]
+- !private ["So9NSCopyingP", "value"]
+- !private ["So9NSCopyingP", "writeValue"]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CBCharacteristic"]
+- ["So8NSObjectC", "CBDescriptor"]
+- ["So8NSObjectC", "CBPeripheral"]
+- ["So8NSObjectC", "CBService"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "PublishSubject"]
+- !private ["So8NSObjectC", "RxBluetoothKitLog"]
+- !private ["So8NSObjectC", "RxCBCharacteristic"]
+- !private ["So8NSObjectC", "RxCBDescriptor"]
+- !private ["So8NSObjectC", "RxCBService"]
+- ["So8NSObjectC", "RxCharacteristicType"]
+- ["So8NSObjectC", "RxDescriptorType"]
+- ["So8NSObjectC", "RxServiceType"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "canSendWriteWithoutResponse"]
+- !private ["So8NSObjectC", "characteristics"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "descriptors"]
+- !private ["So8NSObjectC", "discoverCharacteristics"]
+- !private ["So8NSObjectC", "discoverDescriptors"]
+- !private ["So8NSObjectC", "discoverDescriptorsForCharacteristic"]
+- !private ["So8NSObjectC", "discoverIncludedServices"]
+- !private ["So8NSObjectC", "discoverServices"]
+- !private ["So8NSObjectC", "includedServices"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "isNotifying"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "lockBeforeDate"]
+- !private ["So8NSObjectC", "logDescription"]
+- !private ["So8NSObjectC", "maximumWriteValueLength"]
+- !private ["So8NSObjectC", "maximumWriteValueLengthForType"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "peripheral"]
+- ["So8NSObjectC", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- ["So8NSObjectC", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- ["So8NSObjectC", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- ["So8NSObjectC", "peripheralDidDiscoverServicesSubject"]
+- ["So8NSObjectC", "peripheralDidModifyServicesSubject"]
+- ["So8NSObjectC", "peripheralDidReadRSSISubject"]
+- ["So8NSObjectC", "peripheralDidUpdateName"]
+- ["So8NSObjectC", "peripheralDidUpdateNameSubject"]
+- ["So8NSObjectC", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["So8NSObjectC", "peripheralDidUpdateRSSI"]
+- ["So8NSObjectC", "peripheralDidUpdateValueForCharacteristicSubject"]
+- ["So8NSObjectC", "peripheralDidUpdateValueForDescriptorSubject"]
+- ["So8NSObjectC", "peripheralDidWriteValueForCharacteristicSubject"]
+- ["So8NSObjectC", "peripheralDidWriteValueForDescriptorSubject"]
+- ["So8NSObjectC", "peripheralIsReady"]
+- ["So8NSObjectC", "peripheralIsReadyToSendWriteWithoutResponse"]
+- ["So8NSObjectC", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["So8NSObjectC", "readRSSI"]
+- !private ["So8NSObjectC", "readValue"]
+- !private ["So8NSObjectC", "readValueForCharacteristic"]
+- !private ["So8NSObjectC", "readValueForDescriptor"]
+- !private ["So8NSObjectC", "services"]
+- !private ["So8NSObjectC", "setNotifyValue"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "writeValue"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "CBCharacteristic"]
+- ["So8NSObjectP", "CBDescriptor"]
+- ["So8NSObjectP", "CBService"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "PublishSubject"]
+- !private ["So8NSObjectP", "RxBluetoothKitLog"]
+- !private ["So8NSObjectP", "RxCBCharacteristic"]
+- !private ["So8NSObjectP", "RxCBDescriptor"]
+- !private ["So8NSObjectP", "RxCBService"]
+- ["So8NSObjectP", "RxCharacteristicType"]
+- ["So8NSObjectP", "RxDescriptorType"]
+- ["So8NSObjectP", "RxServiceType"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "canSendWriteWithoutResponse"]
+- !private ["So8NSObjectP", "characteristics"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "descriptors"]
+- !private ["So8NSObjectP", "discoverCharacteristics"]
+- !private ["So8NSObjectP", "discoverDescriptors"]
+- !private ["So8NSObjectP", "discoverDescriptorsForCharacteristic"]
+- !private ["So8NSObjectP", "discoverIncludedServices"]
+- !private ["So8NSObjectP", "discoverServices"]
+- !private ["So8NSObjectP", "includedServices"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "isNotifying"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "logDescription"]
+- !private ["So8NSObjectP", "maximumWriteValueLength"]
+- !private ["So8NSObjectP", "maximumWriteValueLengthForType"]
+- !private ["So8NSObjectP", "name"]
+- ["So8NSObjectP", "peripheral"]
+- ["So8NSObjectP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- ["So8NSObjectP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- ["So8NSObjectP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- ["So8NSObjectP", "peripheralDidDiscoverServicesSubject"]
+- ["So8NSObjectP", "peripheralDidModifyServicesSubject"]
+- ["So8NSObjectP", "peripheralDidReadRSSISubject"]
+- ["So8NSObjectP", "peripheralDidUpdateName"]
+- ["So8NSObjectP", "peripheralDidUpdateNameSubject"]
+- ["So8NSObjectP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["So8NSObjectP", "peripheralDidUpdateRSSI"]
+- ["So8NSObjectP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- ["So8NSObjectP", "peripheralDidUpdateValueForDescriptorSubject"]
+- ["So8NSObjectP", "peripheralDidWriteValueForCharacteristicSubject"]
+- ["So8NSObjectP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["So8NSObjectP", "peripheralIsReady"]
+- ["So8NSObjectP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- ["So8NSObjectP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["So8NSObjectP", "readRSSI"]
+- !private ["So8NSObjectP", "readValue"]
+- !private ["So8NSObjectP", "readValueForCharacteristic"]
+- !private ["So8NSObjectP", "readValueForDescriptor"]
+- !private ["So8NSObjectP", "services"]
+- !private ["So8NSObjectP", "setNotifyValue"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "writeValue"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "intValue"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "intValue"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["SO", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "onNext"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "onNext"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "onNext"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "init"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "onNext"]
+- !private ["23MultiplatformBleAdapter14PublishSubjectC", ""]
+- ["23MultiplatformBleAdapter14PublishSubjectC", "init"]
+- !private ["23MultiplatformBleAdapter14PublishSubjectC", "onNext"]
+- !private ["Sk", ""]
+- !private ["Sk", "logDescription"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "logDescription"]
+- !private ["Sm", "map"]
+- !private ["SY", "logDescription"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "PublishSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxCBCharacteristic"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxCBDescriptor"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxCBService"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "String"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", ""]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "canSendWriteWithoutResponse"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "characteristics"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "d"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "delegate"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "descriptors"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "discoverIncludedServices"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "discoverServices"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "includedServices"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "init"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "intValue"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "isNotifying"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "lock"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "logDescription"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "maximumWriteValueLength"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "name"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheral"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidDiscoverServicesSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidModifyServicesSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidReadRSSISubject"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateName"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateNameSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateRSSI"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralIsReady"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "readRSSI"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "readValue"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "services"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "setNotifyValue"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "state"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "unlock"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "value"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "writeValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "logDescription"]
+- !private ["23MultiplatformBleAdapter17RxBluetoothKitLogC", "d"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", ""]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "characteristic"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "init"]
+- !private ["23MultiplatformBleAdapter14RxCBDescriptorC", ""]
+- !private ["23MultiplatformBleAdapter14RxCBDescriptorC", "descriptor"]
+- !private ["23MultiplatformBleAdapter14RxCBDescriptorC", "init"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "Bool"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBCharacteristic"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBCharacteristicWriteType"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBDescriptor"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBPeripheral"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBPeripheralDelegate"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBPeripheralState"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBService"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "CBUUID"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "Data"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "Error"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "Int"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "InternalPeripheralDelegate"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "InternalPeripheralDelegateWrapper"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "NSLock"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "NSNumber"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "NSObject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "NSUUID"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "ObjectIdentifier"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "Observable"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "PublishSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxCBCharacteristic"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxCBDescriptor"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxCBPeripheral"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxCBService"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxCharacteristicType"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxDescriptorType"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "RxServiceType"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "String"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "UInt"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "UUID"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", ""]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "canSendWriteWithoutResponse"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "deinit"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "discoverCharacteristics"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "discoverDescriptors"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "discoverIncludedServices"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "discoverServices"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "fatalError"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "getInternalPeripheralDelegateRef"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "identifier"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "init"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "internalDelegate"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "internalPeripheralDelegateWrappers"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "internalPeripheralDelegateWrappersLock"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "maximumWriteValueLength"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "name"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "objectId"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheral"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidDiscoverServicesSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidModifyServicesSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidReadRSSISubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidUpdateNameSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralDidWriteValueForDescriptorSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "putInternalPeripheralDelegateRef"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "readRSSI"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "readValue"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "refCount"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didDiscoverCharacteristicsForService"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didDiscoverDescriptorsForCharacteristic"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didDiscoverIncludedServicesForService"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didDiscoverServices"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didModifyServices"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didReadRSSI"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didUpdateName"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didUpdateNotificationStateForCharacteristic"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didUpdateValueForCharacteristic"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didUpdateValueForDescriptor"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didWriteValueForCharacteristic"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_didWriteValueForDescriptor"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "rx_isReadyToSendWriteWithoutResponse"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "services"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "setNotifyValue"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "state"]
+- ["23MultiplatformBleAdapter14RxCBPeripheralC", "writeValue"]
+- !private ["23MultiplatformBleAdapter11RxCBServiceC", ""]
+- !private ["23MultiplatformBleAdapter11RxCBServiceC", "init"]
+- !private ["23MultiplatformBleAdapter11RxCBServiceC", "service"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "characteristic"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "init"]
+- !private ["23MultiplatformBleAdapter16RxDescriptorTypeP", "descriptor"]
+- !private ["23MultiplatformBleAdapter16RxDescriptorTypeP", "init"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "CBPeripheral"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "CBPeripheralDelegate"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "InternalPeripheralDelegate"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "InternalPeripheralDelegateWrapper"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "NSLock"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "NSObject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "ObjectIdentifier"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "PublishSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "RxCBCharacteristic"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "RxCBDescriptor"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "RxCBPeripheral"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "RxCBService"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "String"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "UInt"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", ""]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "canSendWriteWithoutResponse"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverCharacteristics"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverDescriptors"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverIncludedServices"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverServices"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "fatalError"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "getInternalPeripheralDelegateRef"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "identifier"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "internalDelegate"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "internalPeripheralDelegateWrappers"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "internalPeripheralDelegateWrappersLock"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "maximumWriteValueLength"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "name"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "objectId"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheral"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidDiscoverServicesSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidModifyServicesSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidReadRSSISubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidUpdateNameSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralDidWriteValueForDescriptorSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "putInternalPeripheralDelegateRef"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "readRSSI"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "readValue"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "refCount"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverCharacteristicsForService"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverDescriptorsForCharacteristic"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverIncludedServicesForService"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverServices"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didModifyServices"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didReadRSSI"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateName"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateNotificationStateForCharacteristic"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateValueForCharacteristic"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateValueForDescriptor"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didWriteValueForCharacteristic"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didWriteValueForDescriptor"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_isReadyToSendWriteWithoutResponse"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "services"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "setNotifyValue"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "state"]
+- ["23MultiplatformBleAdapter16RxPeripheralTypeP", "writeValue"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "init"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "service"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "logDescription"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "init"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "onNext"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "onNext"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "logDescription"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "logDescription"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "logDescription"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "logDescription"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PublishSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxBluetoothKitLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxCBCharacteristic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxCBDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxCBService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canSendWriteWithoutResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discoverCharacteristics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discoverDescriptors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discoverIncludedServices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discoverServices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "includedServices"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNotifying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumWriteValueLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidDiscoverServicesSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidModifyServicesSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidReadRSSISubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateNameSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateRSSI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralIsReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readRSSI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "services"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNotifyValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "writeValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PublishSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxBluetoothKitLog"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxCBCharacteristic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxCBDescriptor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxCBService"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canSendWriteWithoutResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "characteristics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descriptors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "discoverCharacteristics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "discoverDescriptors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "discoverIncludedServices"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "discoverServices"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "includedServices"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isNotifying"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "logDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumWriteValueLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidDiscoverCharacteristicsForServiceSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidDiscoverDescriptorsForCharacteristicSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidDiscoverIncludedServicesForServiceSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidDiscoverServicesSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidModifyServicesSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidReadRSSISubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateNameSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateNotificationStateForCharacteristicSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateRSSI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateValueForCharacteristicSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidUpdateValueForDescriptorSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidWriteValueForCharacteristicSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralDidWriteValueForDescriptorSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralIsReady"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralIsReadyToSendWriteWithoutResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralIsReadyToSendWriteWithoutResponseSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readRSSI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "services"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setNotifyValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "writeValue"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "logDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "So11CBAttributeC"
+- !private "So16CBCharacteristicC"
+- !private "So25CBCharacteristicWriteTypeV"
+- !private "So12CBDescriptorC"
+- "So6CBPeerC"
+- !private "So12CBPeripheralC"
+- "So20CBPeripheralDelegateP"
+- !private "So9CBServiceC"
+- !private "So6CBUUIDC"
+- "s7CVarArgP"
+- "23MultiplatformBleAdapter10CancelableP"
+- "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "23MultiplatformBleAdapter10DisposableP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "23MultiplatformBleAdapter8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So6NSLockC"
+- "So9NSLockingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- !private "Sj"
+- !private "SO"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- "23MultiplatformBleAdapter14PublishSubjectC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "23MultiplatformBleAdapter17RxBluetoothKitLogC"
+- !private "23MultiplatformBleAdapter18RxCBCharacteristicC"
+- !private "23MultiplatformBleAdapter14RxCBDescriptorC"
+- "23MultiplatformBleAdapter14RxCBPeripheralC"
+- !private "23MultiplatformBleAdapter11RxCBServiceC"
+- !private "23MultiplatformBleAdapter20RxCharacteristicTypeP"
+- !private "23MultiplatformBleAdapter16RxDescriptorTypeP"
+- "23MultiplatformBleAdapter16RxPeripheralTypeP"
+- !private "23MultiplatformBleAdapter13RxServiceTypeP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "23MultiplatformBleAdapter11SubjectTypeP"
+- "23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0f6da6deb04fb2ad0b899f324d15147b"

@@ -1,0 +1,213 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConcurrentMainScheduler"
+provides-nominal:
+- "23MultiplatformBleAdapter23ConcurrentMainSchedulerC"
+provides-member:
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", ""]
+provides-dynamic-lookup:
+- "_mainQueue"
+- "_mainScheduler"
+- "instance"
+- "now"
+- "schedule"
+- "schedulePeriodic"
+- "scheduleRelative"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "ConcurrentMainScheduler"
+- "Date"
+- "DispatchQueue"
+- "Disposable"
+- "Foundation"
+- "MainScheduler"
+- "SchedulerType"
+- !private "SingleAssignmentDisposable"
+- "TimeInterval"
+- !private "_mainQueue"
+- !private "_mainScheduler"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "isMain"]
+- !private ["s7CVarArgP", "main"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "setDisposable"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "ConcurrentMainScheduler"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "Date"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "DispatchQueue"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "Disposable"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "Foundation"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "MainScheduler"]
+- !private ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "Time"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "TimeInterval"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", ""]
+- !private ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "_mainQueue"]
+- !private ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "_mainScheduler"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "deinit"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "init"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "instance"]
+- !private ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "mainQueue"]
+- !private ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "mainScheduler"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "now"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "schedule"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter23ConcurrentMainSchedulerC", "scheduleRelative"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "isMain"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "isMain"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "setDisposable"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "isDisposed"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "setDisposable"]
+- !private ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "isMain"]
+- !private ["SQ", "main"]
+- !private ["SH", "async"]
+- !private ["SH", "isMain"]
+- !private ["SH", "main"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "ConcurrentMainScheduler"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "DispatchQueue"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "MainScheduler"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_mainQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_mainScheduler"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "init"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "instance"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "mainQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "mainScheduler"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "now"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "schedule"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "scheduleRelative"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", ""]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "instance"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "now"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "schedulePeriodic"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "scheduleRelative"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "isMain"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "isMain"]
+- !private ["So8NSObjectP", "main"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "isMain"]
+- !private ["So9OS_objectC", "main"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "async"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "isMain"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "main"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "isMain"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "ConcurrentMainScheduler"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "DispatchQueue"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "MainScheduler"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_mainQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_mainScheduler"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "init"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "instance"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "mainQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "mainScheduler"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "now"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "schedule"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "scheduleRelative"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", ""]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "now"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "schedulePeriodic"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "scheduleRelative"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "setDisposable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMain"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "23MultiplatformBleAdapter10CancelableP"
+- "23MultiplatformBleAdapter23ConcurrentMainSchedulerC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "23MultiplatformBleAdapter10DisposableP"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- !private "SQ"
+- !private "SH"
+- "23MultiplatformBleAdapter22ImmediateSchedulerTypeP"
+- "23MultiplatformBleAdapter13MainSchedulerC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- !private "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- !private "7Combine9SchedulerP"
+- "23MultiplatformBleAdapter13SchedulerTypeP"
+- "23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC"
+- !private "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "adcb5508bbc82db8fc9ed07bf74e328d"

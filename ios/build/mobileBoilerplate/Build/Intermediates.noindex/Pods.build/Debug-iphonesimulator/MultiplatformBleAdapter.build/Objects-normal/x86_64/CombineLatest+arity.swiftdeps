@@ -1,0 +1,841 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CombineLatestSink2_"
+- "CombineLatest2"
+- "CombineLatestSink3_"
+- "CombineLatest3"
+- "CombineLatestSink4_"
+- "CombineLatest4"
+- "CombineLatestSink5_"
+- "CombineLatest5"
+- "CombineLatestSink6_"
+- "CombineLatest6"
+- "CombineLatestSink7_"
+- "CombineLatest7"
+- "CombineLatestSink8_"
+- "CombineLatest8"
+provides-nominal:
+- "23MultiplatformBleAdapter19CombineLatestSink2_C"
+- "23MultiplatformBleAdapter14CombineLatest2C"
+- "23MultiplatformBleAdapter19CombineLatestSink3_C"
+- "23MultiplatformBleAdapter14CombineLatest3C"
+- "23MultiplatformBleAdapter19CombineLatestSink4_C"
+- "23MultiplatformBleAdapter14CombineLatest4C"
+- "23MultiplatformBleAdapter19CombineLatestSink5_C"
+- "23MultiplatformBleAdapter14CombineLatest5C"
+- "23MultiplatformBleAdapter19CombineLatestSink6_C"
+- "23MultiplatformBleAdapter14CombineLatest6C"
+- "23MultiplatformBleAdapter19CombineLatestSink7_C"
+- "23MultiplatformBleAdapter14CombineLatest7C"
+- "23MultiplatformBleAdapter19CombineLatestSink8_C"
+- "23MultiplatformBleAdapter14CombineLatest8C"
+provides-member:
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest2C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest3C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest4C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest5C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest6C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest7C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", ""]
+- ["23MultiplatformBleAdapter14CombineLatest8C", ""]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Cancelable"
+- "CombineLatest2"
+- "CombineLatest3"
+- "CombineLatest4"
+- "CombineLatest5"
+- "CombineLatest6"
+- "CombineLatest7"
+- "CombineLatest8"
+- !private "CombineLatestObserver"
+- "CombineLatestSink"
+- "CombineLatestSink2_"
+- "CombineLatestSink3_"
+- "CombineLatestSink4_"
+- "CombineLatestSink5_"
+- "CombineLatestSink6_"
+- "CombineLatestSink7_"
+- "CombineLatestSink8_"
+- "Disposable"
+- !private "Disposables"
+- "E"
+- "E1"
+- "E2"
+- "E3"
+- "E4"
+- "E5"
+- "E6"
+- "E7"
+- "E8"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "O"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "Parent"
+- "Producer"
+- "R"
+- "ResultSelector"
+- !private "SingleAssignmentDisposable"
+- "Void"
+- !private "_latestElement1"
+- !private "_latestElement2"
+- !private "_latestElement3"
+- !private "_latestElement4"
+- !private "_latestElement5"
+- !private "_latestElement6"
+- !private "_latestElement7"
+- !private "_latestElement8"
+- !private "_lock"
+- !private "_parent"
+- !private "_resultSelector"
+- !private "_source1"
+- !private "_source2"
+- !private "_source3"
+- !private "_source4"
+- !private "_source5"
+- !private "_source6"
+- !private "_source7"
+- !private "_source8"
+depends-member:
+- !private ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "setDisposable"]
+- ["Sl", "Iterator"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest2C", "CombineLatestSink2_"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest2C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest2C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest2C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest2C", "source2"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest3C", "CombineLatestSink3_"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest3C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest3C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest3C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest3C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest3C", "source3"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "CombineLatestSink4_"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "_source4"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest4C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "source3"]
+- !private ["23MultiplatformBleAdapter14CombineLatest4C", "source4"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "CombineLatestSink5_"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_source4"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "_source5"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest5C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "source3"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "source4"]
+- !private ["23MultiplatformBleAdapter14CombineLatest5C", "source5"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "CombineLatestSink6_"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source4"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source5"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "_source6"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest6C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source3"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source4"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source5"]
+- !private ["23MultiplatformBleAdapter14CombineLatest6C", "source6"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "CombineLatestSink7_"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source4"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source5"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source6"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "_source7"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest7C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source3"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source4"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source5"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source6"]
+- !private ["23MultiplatformBleAdapter14CombineLatest7C", "source7"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "Cancelable"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "CombineLatestSink8_"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "Disposable"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "Observable"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "ObserverType"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "ResultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source1"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source2"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source3"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source4"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source5"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source6"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source7"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "_source8"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "deinit"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "init"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "resultSelector"]
+- ["23MultiplatformBleAdapter14CombineLatest8C", "run"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source1"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source2"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source3"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source4"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source5"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source6"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source7"]
+- !private ["23MultiplatformBleAdapter14CombineLatest8C", "source8"]
+- !private ["23MultiplatformBleAdapter21CombineLatestObserverC", ""]
+- !private ["23MultiplatformBleAdapter21CombineLatestObserverC", "init"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "CombineLatestObserver"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "Disposables"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter21CombineLatestProtocolP", ""]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement1"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement2"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement3"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement4"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement5"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement6"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement7"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_latestElement8"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_lock"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "_parent"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "init"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement1"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement2"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement3"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement4"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement5"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement6"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement7"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "latestElement8"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "lock"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "parent"]
+- !private ["23MultiplatformBleAdapter21CombineLatestProtocolP", "run"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest2"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest3"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest4"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest5"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest6"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest7"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatest8"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "Disposable"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "Disposables"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "Parent"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "R"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "Void"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", ""]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement1"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement2"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement3"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement4"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement5"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement6"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement7"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_latestElement8"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "_lock"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "_parent"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "getResult"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "init"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement1"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement2"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement3"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement4"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement5"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement6"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement7"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "latestElement8"]
+- !private ["23MultiplatformBleAdapter17CombineLatestSinkC", "lock"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "parent"]
+- ["23MultiplatformBleAdapter17CombineLatestSinkC", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "CombineLatest2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "_latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink2_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink2_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "CombineLatest3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "_latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink3_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink3_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "CombineLatest4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_latestElement3"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink4_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink4_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "CombineLatest5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_latestElement3"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_latestElement4"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_latestElement5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "latestElement5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink5_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink5_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "CombineLatest6"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement3"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement4"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement5"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_latestElement6"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "latestElement6"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink6_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink6_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "CombineLatest7"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement3"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement4"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement5"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement6"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_latestElement7"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement6"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "latestElement7"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink7_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink7_C", "run"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "Cancelable"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "CombineLatest8"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "Disposables"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "Parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "R"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "Void"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", ""]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement1"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement2"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement3"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement4"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement5"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement6"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement7"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_latestElement8"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_lock"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "_parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "deinit"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "getResult"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "init"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement1"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement2"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement3"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement4"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement5"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement6"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement7"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "latestElement8"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "lock"]
+- !private ["23MultiplatformBleAdapter19CombineLatestSink8_C", "parent"]
+- ["23MultiplatformBleAdapter19CombineLatestSink8_C", "run"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "CombineLatestObserver"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "Disposables"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement1"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement2"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement3"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement4"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement5"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement6"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement7"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_latestElement8"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_parent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement1"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement2"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement3"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement4"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement5"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement6"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement7"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "latestElement8"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "parent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "run"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "setDisposable"]
+- !private ["23MultiplatformBleAdapter11DisposablesV", "create"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "setDisposable"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["St", "Element"]
+- ["23MultiplatformBleAdapter4LockP", ""]
+- !private ["23MultiplatformBleAdapter4LockP", "init"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "Cancelable"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink2_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink3_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink4_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink5_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink6_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink7_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "CombineLatestSink8_"]
+- ["23MultiplatformBleAdapter10ObservableC", "Disposable"]
+- ["23MultiplatformBleAdapter10ObservableC", "Observable"]
+- ["23MultiplatformBleAdapter10ObservableC", "ObserverType"]
+- ["23MultiplatformBleAdapter10ObservableC", "ResultSelector"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "_resultSelector"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source1"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source2"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source3"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source4"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source5"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source6"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source7"]
+- ["23MultiplatformBleAdapter10ObservableC", "_source8"]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "resultSelector"]
+- ["23MultiplatformBleAdapter10ObservableC", "run"]
+- ["23MultiplatformBleAdapter10ObservableC", "source1"]
+- ["23MultiplatformBleAdapter10ObservableC", "source2"]
+- ["23MultiplatformBleAdapter10ObservableC", "source3"]
+- ["23MultiplatformBleAdapter10ObservableC", "source4"]
+- ["23MultiplatformBleAdapter10ObservableC", "source5"]
+- ["23MultiplatformBleAdapter10ObservableC", "source6"]
+- ["23MultiplatformBleAdapter10ObservableC", "source7"]
+- ["23MultiplatformBleAdapter10ObservableC", "source8"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "subscribe"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest2"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest3"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest4"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest5"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest6"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest7"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatest8"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink2_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink3_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink4_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink5_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink6_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink7_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "CombineLatestSink8_"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Observable"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ObservableType"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_resultSelector"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source1"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source2"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source3"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source4"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source5"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source6"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source7"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_source8"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "resultSelector"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source1"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source2"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source3"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source4"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source5"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source6"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source7"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source8"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "subscribe"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest2"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest3"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest4"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest5"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest6"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest7"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatest8"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink2_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink3_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink4_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink5_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink6_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink7_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "CombineLatestSink8_"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "Observable"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "ObservableType"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_resultSelector"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source1"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source2"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source3"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source4"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source5"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source6"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source7"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_source8"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "asObservable"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "combineLatest"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "resultSelector"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source1"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source2"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source3"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source4"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source5"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source6"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source7"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source8"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "subscribe"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "E"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", ""]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "init"]
+- ["23MultiplatformBleAdapter8ProducerC", "Cancelable"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink2_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink3_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink4_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink5_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink6_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink7_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "CombineLatestSink8_"]
+- ["23MultiplatformBleAdapter8ProducerC", "Disposable"]
+- ["23MultiplatformBleAdapter8ProducerC", "Observable"]
+- ["23MultiplatformBleAdapter8ProducerC", "ObserverType"]
+- ["23MultiplatformBleAdapter8ProducerC", "ResultSelector"]
+- ["23MultiplatformBleAdapter8ProducerC", ""]
+- ["23MultiplatformBleAdapter8ProducerC", "_resultSelector"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source1"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source2"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source3"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source4"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source5"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source6"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source7"]
+- ["23MultiplatformBleAdapter8ProducerC", "_source8"]
+- ["23MultiplatformBleAdapter8ProducerC", "init"]
+- ["23MultiplatformBleAdapter8ProducerC", "resultSelector"]
+- ["23MultiplatformBleAdapter8ProducerC", "run"]
+- ["23MultiplatformBleAdapter8ProducerC", "source1"]
+- ["23MultiplatformBleAdapter8ProducerC", "source2"]
+- ["23MultiplatformBleAdapter8ProducerC", "source3"]
+- ["23MultiplatformBleAdapter8ProducerC", "source4"]
+- ["23MultiplatformBleAdapter8ProducerC", "source5"]
+- ["23MultiplatformBleAdapter8ProducerC", "source6"]
+- ["23MultiplatformBleAdapter8ProducerC", "source7"]
+- ["23MultiplatformBleAdapter8ProducerC", "source8"]
+- ["ST", "Iterator"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "setDisposable"]
+- ["23MultiplatformBleAdapter4SinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest2"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest3"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest4"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest5"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest6"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest7"]
+- ["23MultiplatformBleAdapter4SinkC", "CombineLatest8"]
+- !private ["23MultiplatformBleAdapter4SinkC", "CombineLatestObserver"]
+- ["23MultiplatformBleAdapter4SinkC", "Disposable"]
+- !private ["23MultiplatformBleAdapter4SinkC", "Disposables"]
+- ["23MultiplatformBleAdapter4SinkC", "Parent"]
+- ["23MultiplatformBleAdapter4SinkC", "R"]
+- !private ["23MultiplatformBleAdapter4SinkC", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter4SinkC", "Void"]
+- ["23MultiplatformBleAdapter4SinkC", ""]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement1"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement2"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement3"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement4"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement5"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement6"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement7"]
+- ["23MultiplatformBleAdapter4SinkC", "_latestElement8"]
+- !private ["23MultiplatformBleAdapter4SinkC", "_lock"]
+- ["23MultiplatformBleAdapter4SinkC", "_parent"]
+- ["23MultiplatformBleAdapter4SinkC", "getResult"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement1"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement2"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement3"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement4"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement5"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement6"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement7"]
+- ["23MultiplatformBleAdapter4SinkC", "latestElement8"]
+- !private ["23MultiplatformBleAdapter4SinkC", "lock"]
+- ["23MultiplatformBleAdapter4SinkC", "parent"]
+- ["23MultiplatformBleAdapter4SinkC", "run"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- !private "23MultiplatformBleAdapter10CancelableP"
+- "Sl"
+- "23MultiplatformBleAdapter14CombineLatest2C"
+- "23MultiplatformBleAdapter14CombineLatest3C"
+- "23MultiplatformBleAdapter14CombineLatest4C"
+- "23MultiplatformBleAdapter14CombineLatest5C"
+- "23MultiplatformBleAdapter14CombineLatest6C"
+- "23MultiplatformBleAdapter14CombineLatest7C"
+- "23MultiplatformBleAdapter14CombineLatest8C"
+- !private "23MultiplatformBleAdapter21CombineLatestObserverC"
+- "23MultiplatformBleAdapter21CombineLatestProtocolP"
+- "23MultiplatformBleAdapter17CombineLatestSinkC"
+- "23MultiplatformBleAdapter19CombineLatestSink2_C"
+- "23MultiplatformBleAdapter19CombineLatestSink3_C"
+- "23MultiplatformBleAdapter19CombineLatestSink4_C"
+- "23MultiplatformBleAdapter19CombineLatestSink5_C"
+- "23MultiplatformBleAdapter19CombineLatestSink6_C"
+- "23MultiplatformBleAdapter19CombineLatestSink7_C"
+- "23MultiplatformBleAdapter19CombineLatestSink8_C"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "23MultiplatformBleAdapter11DisposablesV"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- !private "s25ExpressibleByArrayLiteralP"
+- "St"
+- "23MultiplatformBleAdapter4LockP"
+- !private "23MultiplatformBleAdapter13LockOwnerTypeP"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- "23MultiplatformBleAdapter8ProducerC"
+- "ST"
+- !private "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- "23MultiplatformBleAdapter4SinkC"
+- !private "23MultiplatformBleAdapter18SynchronizedOnTypeP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0dc8b70575353436fd19acddfc54a029"

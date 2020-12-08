@@ -1,0 +1,474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BehaviorSubject"
+provides-nominal:
+- "23MultiplatformBleAdapter15BehaviorSubjectC"
+provides-member:
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private ">"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "BehaviorSubject"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- !private "Disposables"
+- "DisposeKey"
+- "E"
+- "Element"
+- "Event"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Observable"
+- "ObserverType"
+- "Observers"
+- "RecursiveLock"
+- !private "RxError"
+- "SubjectType"
+- !private "SubscriptionDisposable"
+- "SynchronizationTracker"
+- "SynchronizedUnsubscribeType"
+- !private "_element"
+- !private "_isDisposed"
+- !private "_lock"
+- !private "_observers"
+- !private "_stoppedEvent"
+- !private "_synchronizationTracker"
+- !private "_synchronized_on"
+- !private "_synchronized_subscribe"
+- !private "_synchronized_unsubscribe"
+- !private "dispatch"
+- !private "||"
+depends-member:
+- ["23MultiplatformBleAdapter11AnyObserverV", "s"]
+- ["23MultiplatformBleAdapter3BagV", "KeyType"]
+- !private ["23MultiplatformBleAdapter3BagV", "count"]
+- ["23MultiplatformBleAdapter3BagV", "init"]
+- !private ["23MultiplatformBleAdapter3BagV", "insert"]
+- !private ["23MultiplatformBleAdapter3BagV", "removeAll"]
+- !private ["23MultiplatformBleAdapter3BagV", "removeKey"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "AnyObserver"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "BehaviorSubject"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "Bool"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "Disposable"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "Disposables"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "DisposeKey"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "E"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "Event"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "ObserverType"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "Observers"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "RxError"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", ""]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "_element"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "_isDisposed"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "_lock"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "_observers"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "_synchronizationTracker"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "_synchronized_on"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "_synchronized_subscribe"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "asObserver"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "deinit"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "dispatch"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "dispose"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "element"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "hasObservers"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "init"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "isDisposed"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "lock"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "observers"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "on"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "stoppedEvent"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "subscribe"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter15BehaviorSubjectC", "synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter15BehaviorSubjectC", "value"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- ["s28CustomDebugStringConvertibleP", "KeyType"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "disposed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "Disposables"]
+- ["23MultiplatformBleAdapter10DisposableP", "DisposeKey"]
+- ["23MultiplatformBleAdapter10DisposableP", "E"]
+- ["23MultiplatformBleAdapter10DisposableP", "Observers"]
+- ["23MultiplatformBleAdapter10DisposableP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "RxError"]
+- ["23MultiplatformBleAdapter10DisposableP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter10DisposableP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_element"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_observers"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter10DisposableP", "asObserver"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "dispatch"]
+- ["23MultiplatformBleAdapter10DisposableP", "dispose"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "element"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "observers"]
+- ["23MultiplatformBleAdapter10DisposableP", "on"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter10DisposableP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "synchronized_unsubscribe"]
+- !private ["23MultiplatformBleAdapter11DisposablesV", "create"]
+- ["SQ", ""]
+- !private ["SQ", "default"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- !private ["s5ErrorP", "disposed"]
+- ["23MultiplatformBleAdapter5EventO", "completed"]
+- ["23MultiplatformBleAdapter5EventO", "error"]
+- ["23MultiplatformBleAdapter5EventO", "next"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "completed"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "error"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "next"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "default"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- ["23MultiplatformBleAdapter4LockP", "init"]
+- !private ["23MultiplatformBleAdapter4LockP", "lock"]
+- !private ["23MultiplatformBleAdapter4LockP", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", ""]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["23MultiplatformBleAdapter10ObservableC", "AnyObserver"]
+- ["23MultiplatformBleAdapter10ObservableC", "BehaviorSubject"]
+- ["23MultiplatformBleAdapter10ObservableC", "Bool"]
+- ["23MultiplatformBleAdapter10ObservableC", "Disposable"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "Disposables"]
+- ["23MultiplatformBleAdapter10ObservableC", "DisposeKey"]
+- ["23MultiplatformBleAdapter10ObservableC", "E"]
+- ["23MultiplatformBleAdapter10ObservableC", "Event"]
+- ["23MultiplatformBleAdapter10ObservableC", "ObserverType"]
+- ["23MultiplatformBleAdapter10ObservableC", "Observers"]
+- ["23MultiplatformBleAdapter10ObservableC", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "RxError"]
+- ["23MultiplatformBleAdapter10ObservableC", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter10ObservableC", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "_element"]
+- ["23MultiplatformBleAdapter10ObservableC", "_isDisposed"]
+- ["23MultiplatformBleAdapter10ObservableC", "_lock"]
+- ["23MultiplatformBleAdapter10ObservableC", "_observers"]
+- ["23MultiplatformBleAdapter10ObservableC", "_stoppedEvent"]
+- ["23MultiplatformBleAdapter10ObservableC", "_synchronizationTracker"]
+- ["23MultiplatformBleAdapter10ObservableC", "_synchronized_on"]
+- ["23MultiplatformBleAdapter10ObservableC", "_synchronized_subscribe"]
+- ["23MultiplatformBleAdapter10ObservableC", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter10ObservableC", "asObserver"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "dispatch"]
+- ["23MultiplatformBleAdapter10ObservableC", "dispose"]
+- ["23MultiplatformBleAdapter10ObservableC", "element"]
+- ["23MultiplatformBleAdapter10ObservableC", "hasObservers"]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "isDisposed"]
+- ["23MultiplatformBleAdapter10ObservableC", "lock"]
+- ["23MultiplatformBleAdapter10ObservableC", "observers"]
+- ["23MultiplatformBleAdapter10ObservableC", "on"]
+- ["23MultiplatformBleAdapter10ObservableC", "stoppedEvent"]
+- ["23MultiplatformBleAdapter10ObservableC", "subscribe"]
+- ["23MultiplatformBleAdapter10ObservableC", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter10ObservableC", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter10ObservableC", "value"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "DisposeKey"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Observers"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "RxError"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_element"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_observers"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObserver"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "dispatch"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "element"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "lock"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "observers"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "on"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "synchronized_unsubscribe"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "DisposeKey"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "Observers"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "RxError"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_element"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_observers"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "asObserver"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "dispatch"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "element"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "lock"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "observers"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "on"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "synchronized_unsubscribe"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "DisposeKey"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "E"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "Observers"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "RxError"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", ""]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_element"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_observers"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "asObserver"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "dispatch"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "element"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "lock"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "observers"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "on"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "s"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronized_unsubscribe"]
+- !private ["SY", "default"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "init"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "lock"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "unlock"]
+- !private ["23MultiplatformBleAdapter7RxErrorO", ""]
+- !private ["23MultiplatformBleAdapter7RxErrorO", "disposed"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "DisposeKey"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "E"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "Observers"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "RxError"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", ""]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_element"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_observers"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "asObserver"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "dispatch"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "element"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "lock"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "observers"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "on"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "synchronized_unsubscribe"]
+- !private ["23MultiplatformBleAdapter22SubscriptionDisposableV", ""]
+- !private ["23MultiplatformBleAdapter22SubscriptionDisposableV", "init"]
+- !private ["23MultiplatformBleAdapter22SynchronizationTrackerC0D13ErrorMessagesO", "default"]
+- ["23MultiplatformBleAdapter22SynchronizationTrackerC", "init"]
+- !private ["23MultiplatformBleAdapter22SynchronizationTrackerC", "register"]
+- !private ["23MultiplatformBleAdapter22SynchronizationTrackerC", "unregister"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "Disposables"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "DisposeKey"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "E"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "Observers"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "RecursiveLock"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "RxError"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "SubjectObserverType"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "SubscriptionDisposable"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "SynchronizationTracker"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", ""]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_element"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_isDisposed"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_observers"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_stoppedEvent"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_synchronizationTracker"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "_synchronized_unsubscribe"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "asObserver"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "dispatch"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "dispose"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "element"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "lock"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "observers"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "on"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "stoppedEvent"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "synchronizationTracker"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "synchronizedUnsubscribe"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "synchronized_on"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "synchronized_subscribe"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "synchronized_unsubscribe"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+depends-nominal:
+- "23MultiplatformBleAdapter11AnyObserverV"
+- "23MultiplatformBleAdapter3BagV"
+- "23MultiplatformBleAdapter15BehaviorSubjectC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "23MultiplatformBleAdapter11DisposablesV"
+- "SQ"
+- !private "s5ErrorP"
+- "23MultiplatformBleAdapter5EventO"
+- "23MultiplatformBleAdapter16EventConvertibleP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "23MultiplatformBleAdapter4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- !private "SY"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- !private "23MultiplatformBleAdapter7RxErrorO"
+- "23MultiplatformBleAdapter11SubjectTypeP"
+- !private "23MultiplatformBleAdapter22SubscriptionDisposableV"
+- !private "23MultiplatformBleAdapter22SynchronizationTrackerC0D13ErrorMessagesO"
+- "23MultiplatformBleAdapter22SynchronizationTrackerC"
+- "23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "97b2fc0a50bcdd67fe26f57de7d3a3cd"

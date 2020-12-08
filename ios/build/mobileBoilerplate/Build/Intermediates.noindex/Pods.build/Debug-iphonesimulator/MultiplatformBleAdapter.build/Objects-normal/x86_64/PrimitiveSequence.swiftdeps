@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+provides-nominal:
+- "23MultiplatformBleAdapter17PrimitiveSequenceV"
+- "23MultiplatformBleAdapter21PrimitiveSequenceTypeP"
+provides-member:
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", ""]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", ""]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "deferred"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "delay"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "delaySubscription"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "observeOn"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "subscribeOn"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "catchError"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "retry"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "retryWhen"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "retryWhen"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "debug"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "using"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "timeout"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "timeout"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "timer"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- "E"
+- "Element"
+- "ElementType"
+- "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "Int"
+- "IntegerLiteralType"
+- "Observable"
+- "ObservableConvertibleType"
+- "ObservableType"
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+- "RxAbstractInteger"
+- "RxTimeInterval"
+- "SchedulerType"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "Trait"
+- "TraitType"
+- "UInt"
+- !private "primitiveSequence"
+- !private "source"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sz", ""]
+- !private ["SL", ""]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["SQ", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["SH", ""]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", ""]
+- !private ["St", "Element"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["Sj", ""]
+- !private ["23MultiplatformBleAdapter10ObservableC", ""]
+- !private ["23MultiplatformBleAdapter10ObservableC", "catchError"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "debug"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "deferred"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "delay"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "delaySubscription"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "observeOn"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "retry"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "retryWhen"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "timeout"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "timer"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "using"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ElementType"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Observable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "PrimitiveSequence"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "TraitType"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "catchError"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "debug"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "delay"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "delaySubscription"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "observeOn"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "primitiveSequence"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "retry"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "retryWhen"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "timeout"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "timer"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "using"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "catchError"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "debug"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "delay"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "delaySubscription"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "observeOn"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "retry"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "retryWhen"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "timeout"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "timer"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "using"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "Bool"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "Disposable"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "E"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "ElementType"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "ImmediateSchedulerType"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "Int"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "Observable"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "ObservableType"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "PrimitiveSequence"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "RxTimeInterval"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "SchedulerType"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "String"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "Swift"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "TraitType"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "UInt"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", ""]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "asObservable"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "catchError"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "debug"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "deferred"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "delay"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "delaySubscription"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "init"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "observeOn"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "primitiveSequence"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "retry"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "retryWhen"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "source"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "subscribeOn"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "timeout"]
+- ["23MultiplatformBleAdapter17PrimitiveSequenceV", "using"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "E"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "ElementType"]
+- !private ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "Observable"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "PrimitiveSequence"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "RxAbstractInteger"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "RxTimeInterval"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "SchedulerType"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "TraitType"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", ""]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "init"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "primitiveSequence"]
+- !private ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "source"]
+- ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "timer"]
+- !private ["ST", "Iterator"]
+- !private ["Sx", ""]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- !private "SL"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SH"
+- "23MultiplatformBleAdapter22ImmediateSchedulerTypeP"
+- !private "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- !private "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- !private "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter17PrimitiveSequenceV"
+- "23MultiplatformBleAdapter21PrimitiveSequenceTypeP"
+- !private "ST"
+- !private "Sx"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5213e9be893f33b8e0797423aca4a7b4"

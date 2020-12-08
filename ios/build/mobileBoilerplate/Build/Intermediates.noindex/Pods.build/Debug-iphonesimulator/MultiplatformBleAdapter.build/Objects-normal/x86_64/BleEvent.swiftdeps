@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BleEvent"
+provides-nominal:
+- "23MultiplatformBleAdapter0B5EventC"
+provides-member:
+- ["23MultiplatformBleAdapter0B5EventC", ""]
+provides-dynamic-lookup:
+- "connectedEvent"
+- "connectingEvent"
+- "disconnectionEvent"
+- "events"
+- "readEvent"
+- "restoreStateEvent"
+- "scanEvent"
+- "stateChangeEvent"
+depends-top-level:
+- "Array"
+- "BleEvent"
+- "NSObject"
+- "StringLiteralType"
+- "connectedEvent"
+- "connectingEvent"
+- "disconnectionEvent"
+- "readEvent"
+- "restoreStateEvent"
+- "scanEvent"
+- "stateChangeEvent"
+depends-member:
+- ["23MultiplatformBleAdapter0B5EventC", ""]
+- ["23MultiplatformBleAdapter0B5EventC", "connectedEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "connectingEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "deinit"]
+- ["23MultiplatformBleAdapter0B5EventC", "disconnectionEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "events"]
+- ["23MultiplatformBleAdapter0B5EventC", "init"]
+- ["23MultiplatformBleAdapter0B5EventC", "readEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "restoreStateEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "scanEvent"]
+- ["23MultiplatformBleAdapter0B5EventC", "stateChangeEvent"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "connectedEvent"]
+- ["s7CVarArgP", "connectingEvent"]
+- ["s7CVarArgP", "disconnectionEvent"]
+- ["s7CVarArgP", "readEvent"]
+- ["s7CVarArgP", "restoreStateEvent"]
+- ["s7CVarArgP", "scanEvent"]
+- ["s7CVarArgP", "stateChangeEvent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "connectedEvent"]
+- ["s28CustomDebugStringConvertibleP", "connectingEvent"]
+- ["s28CustomDebugStringConvertibleP", "disconnectionEvent"]
+- ["s28CustomDebugStringConvertibleP", "readEvent"]
+- ["s28CustomDebugStringConvertibleP", "restoreStateEvent"]
+- ["s28CustomDebugStringConvertibleP", "scanEvent"]
+- ["s28CustomDebugStringConvertibleP", "stateChangeEvent"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "connectedEvent"]
+- ["s23CustomStringConvertibleP", "connectingEvent"]
+- ["s23CustomStringConvertibleP", "disconnectionEvent"]
+- ["s23CustomStringConvertibleP", "readEvent"]
+- ["s23CustomStringConvertibleP", "restoreStateEvent"]
+- ["s23CustomStringConvertibleP", "scanEvent"]
+- ["s23CustomStringConvertibleP", "stateChangeEvent"]
+- ["SQ", ""]
+- ["SQ", "connectedEvent"]
+- ["SQ", "connectingEvent"]
+- ["SQ", "disconnectionEvent"]
+- ["SQ", "readEvent"]
+- ["SQ", "restoreStateEvent"]
+- ["SQ", "scanEvent"]
+- ["SQ", "stateChangeEvent"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", ""]
+- ["SH", "connectedEvent"]
+- ["SH", "connectingEvent"]
+- ["SH", "disconnectionEvent"]
+- ["SH", "readEvent"]
+- ["SH", "restoreStateEvent"]
+- ["SH", "scanEvent"]
+- ["SH", "stateChangeEvent"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "connectedEvent"]
+- ["So8NSObjectC", "connectingEvent"]
+- ["So8NSObjectC", "disconnectionEvent"]
+- ["So8NSObjectC", "events"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "readEvent"]
+- ["So8NSObjectC", "restoreStateEvent"]
+- ["So8NSObjectC", "scanEvent"]
+- ["So8NSObjectC", "stateChangeEvent"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "connectedEvent"]
+- ["So8NSObjectP", "connectingEvent"]
+- ["So8NSObjectP", "disconnectionEvent"]
+- ["So8NSObjectP", "events"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "readEvent"]
+- ["So8NSObjectP", "restoreStateEvent"]
+- ["So8NSObjectP", "scanEvent"]
+- ["So8NSObjectP", "stateChangeEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", ""]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "connectedEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "connectingEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "disconnectionEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "readEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "restoreStateEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "scanEvent"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "stateChangeEvent"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectedEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectingEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "disconnectionEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "readEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "restoreStateEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scanEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateChangeEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectedEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectingEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disconnectionEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restoreStateEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scanEvent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateChangeEvent"]
+depends-nominal:
+- "23MultiplatformBleAdapter0B5EventC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "96f9e9f914690de1cd2334c4fb556b43"

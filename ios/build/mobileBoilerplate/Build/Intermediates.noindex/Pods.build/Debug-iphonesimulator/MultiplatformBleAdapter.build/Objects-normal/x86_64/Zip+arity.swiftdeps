@@ -1,0 +1,826 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ZipSink2_"
+- "Zip2"
+- "ZipSink3_"
+- "Zip3"
+- "ZipSink4_"
+- "Zip4"
+- "ZipSink5_"
+- "Zip5"
+- "ZipSink6_"
+- "Zip6"
+- "ZipSink7_"
+- "Zip7"
+- "ZipSink8_"
+- "Zip8"
+provides-nominal:
+- "23MultiplatformBleAdapter9ZipSink2_C"
+- "23MultiplatformBleAdapter4Zip2C"
+- "23MultiplatformBleAdapter9ZipSink3_C"
+- "23MultiplatformBleAdapter4Zip3C"
+- "23MultiplatformBleAdapter9ZipSink4_C"
+- "23MultiplatformBleAdapter4Zip4C"
+- "23MultiplatformBleAdapter9ZipSink5_C"
+- "23MultiplatformBleAdapter4Zip5C"
+- "23MultiplatformBleAdapter9ZipSink6_C"
+- "23MultiplatformBleAdapter4Zip6C"
+- "23MultiplatformBleAdapter9ZipSink7_C"
+- "23MultiplatformBleAdapter4Zip7C"
+- "23MultiplatformBleAdapter9ZipSink8_C"
+- "23MultiplatformBleAdapter4Zip8C"
+provides-member:
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- ["23MultiplatformBleAdapter9ZipSink2_C", ""]
+- ["23MultiplatformBleAdapter4Zip2C", ""]
+- ["23MultiplatformBleAdapter9ZipSink3_C", ""]
+- ["23MultiplatformBleAdapter4Zip3C", ""]
+- ["23MultiplatformBleAdapter9ZipSink4_C", ""]
+- ["23MultiplatformBleAdapter4Zip4C", ""]
+- ["23MultiplatformBleAdapter9ZipSink5_C", ""]
+- ["23MultiplatformBleAdapter4Zip5C", ""]
+- ["23MultiplatformBleAdapter9ZipSink6_C", ""]
+- ["23MultiplatformBleAdapter4Zip6C", ""]
+- ["23MultiplatformBleAdapter9ZipSink7_C", ""]
+- ["23MultiplatformBleAdapter4Zip7C", ""]
+- ["23MultiplatformBleAdapter9ZipSink8_C", ""]
+- ["23MultiplatformBleAdapter4Zip8C", ""]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Cancelable"
+- "Disposable"
+- !private "Disposables"
+- "E"
+- "E1"
+- "E2"
+- "E3"
+- "E4"
+- "E5"
+- "E6"
+- "E7"
+- "E8"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "O"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "Parent"
+- "Producer"
+- "Queue"
+- "R"
+- "ResultSelector"
+- !private "SingleAssignmentDisposable"
+- !private "StringLiteralType"
+- "Zip2"
+- "Zip3"
+- "Zip4"
+- "Zip5"
+- "Zip6"
+- "Zip7"
+- "Zip8"
+- !private "ZipObserver"
+- "ZipSink"
+- "ZipSink2_"
+- "ZipSink3_"
+- "ZipSink4_"
+- "ZipSink5_"
+- "ZipSink6_"
+- "ZipSink7_"
+- "ZipSink8_"
+- !private "_lock"
+- !private "_parent"
+- !private "_resultSelector"
+- !private "_values1"
+- !private "_values2"
+- !private "_values3"
+- !private "_values4"
+- !private "_values5"
+- !private "_values6"
+- !private "_values7"
+- !private "_values8"
+- !private "rxFatalError"
+- !private "~="
+depends-member:
+- !private ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "setDisposable"]
+- ["Sl", "Iterator"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "Disposables"]
+- ["23MultiplatformBleAdapter10DisposableP", "Queue"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "ZipObserver"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_parent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values1"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values2"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values3"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values4"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values5"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values6"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values7"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_values8"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "lock"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "parent"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "run"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "setDisposable"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values1"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values2"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values3"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values4"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values5"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values6"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values7"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "values8"]
+- !private ["23MultiplatformBleAdapter11DisposablesV", "create"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "setDisposable"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["St", "Element"]
+- ["23MultiplatformBleAdapter4LockP", ""]
+- !private ["23MultiplatformBleAdapter4LockP", "init"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "Cancelable"]
+- ["23MultiplatformBleAdapter10ObservableC", "Disposable"]
+- ["23MultiplatformBleAdapter10ObservableC", "Observable"]
+- ["23MultiplatformBleAdapter10ObservableC", "ObserverType"]
+- ["23MultiplatformBleAdapter10ObservableC", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink2_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink3_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink4_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink5_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink6_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink7_"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ZipSink8_"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "_resultSelector"]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", "resultSelector"]
+- ["23MultiplatformBleAdapter10ObservableC", "run"]
+- ["23MultiplatformBleAdapter10ObservableC", "source1"]
+- ["23MultiplatformBleAdapter10ObservableC", "source2"]
+- ["23MultiplatformBleAdapter10ObservableC", "source3"]
+- ["23MultiplatformBleAdapter10ObservableC", "source4"]
+- ["23MultiplatformBleAdapter10ObservableC", "source5"]
+- ["23MultiplatformBleAdapter10ObservableC", "source6"]
+- ["23MultiplatformBleAdapter10ObservableC", "source7"]
+- ["23MultiplatformBleAdapter10ObservableC", "source8"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "subscribe"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Observable"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ObservableType"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip2"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip3"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip4"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip5"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip6"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip7"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "Zip8"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink2_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink3_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink4_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink5_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink6_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink7_"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ZipSink8_"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "_resultSelector"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "resultSelector"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source1"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source2"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source3"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source4"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source5"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source6"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source7"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "source8"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "subscribe"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "Observable"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "ObservableType"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip2"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip3"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip4"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip5"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip6"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip7"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "Zip8"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink2_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink3_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink4_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink5_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink6_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink7_"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ZipSink8_"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "_resultSelector"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "resultSelector"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source1"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source2"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source3"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source4"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source5"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source6"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source7"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "source8"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "subscribe"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "zip"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "E"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", ""]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "init"]
+- ["23MultiplatformBleAdapter8ProducerC", "Cancelable"]
+- ["23MultiplatformBleAdapter8ProducerC", "Disposable"]
+- ["23MultiplatformBleAdapter8ProducerC", "Observable"]
+- ["23MultiplatformBleAdapter8ProducerC", "ObserverType"]
+- ["23MultiplatformBleAdapter8ProducerC", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink2_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink3_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink4_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink5_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink6_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink7_"]
+- !private ["23MultiplatformBleAdapter8ProducerC", "ZipSink8_"]
+- ["23MultiplatformBleAdapter8ProducerC", ""]
+- ["23MultiplatformBleAdapter8ProducerC", "_resultSelector"]
+- ["23MultiplatformBleAdapter8ProducerC", "init"]
+- ["23MultiplatformBleAdapter8ProducerC", "resultSelector"]
+- ["23MultiplatformBleAdapter8ProducerC", "run"]
+- ["23MultiplatformBleAdapter8ProducerC", "source1"]
+- ["23MultiplatformBleAdapter8ProducerC", "source2"]
+- ["23MultiplatformBleAdapter8ProducerC", "source3"]
+- ["23MultiplatformBleAdapter8ProducerC", "source4"]
+- ["23MultiplatformBleAdapter8ProducerC", "source5"]
+- ["23MultiplatformBleAdapter8ProducerC", "source6"]
+- ["23MultiplatformBleAdapter8ProducerC", "source7"]
+- ["23MultiplatformBleAdapter8ProducerC", "source8"]
+- !private ["23MultiplatformBleAdapter5QueueV", "count"]
+- !private ["23MultiplatformBleAdapter5QueueV", "dequeue"]
+- !private ["23MultiplatformBleAdapter5QueueV", "enqueue"]
+- ["23MultiplatformBleAdapter5QueueV", "init"]
+- ["ST", "Iterator"]
+- !private ["ST", "count"]
+- !private ["ST", "dequeue"]
+- !private ["ST", "enqueue"]
+- ["ST", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "setDisposable"]
+- ["23MultiplatformBleAdapter4SinkC", "Bool"]
+- ["23MultiplatformBleAdapter4SinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter4SinkC", "Disposable"]
+- !private ["23MultiplatformBleAdapter4SinkC", "Disposables"]
+- ["23MultiplatformBleAdapter4SinkC", "Int"]
+- ["23MultiplatformBleAdapter4SinkC", "Parent"]
+- ["23MultiplatformBleAdapter4SinkC", "Queue"]
+- ["23MultiplatformBleAdapter4SinkC", "R"]
+- !private ["23MultiplatformBleAdapter4SinkC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip2"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip3"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip4"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip5"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip6"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip7"]
+- ["23MultiplatformBleAdapter4SinkC", "Zip8"]
+- !private ["23MultiplatformBleAdapter4SinkC", "ZipObserver"]
+- ["23MultiplatformBleAdapter4SinkC", ""]
+- !private ["23MultiplatformBleAdapter4SinkC", "_lock"]
+- ["23MultiplatformBleAdapter4SinkC", "_parent"]
+- ["23MultiplatformBleAdapter4SinkC", "_values1"]
+- ["23MultiplatformBleAdapter4SinkC", "_values2"]
+- ["23MultiplatformBleAdapter4SinkC", "_values3"]
+- ["23MultiplatformBleAdapter4SinkC", "_values4"]
+- ["23MultiplatformBleAdapter4SinkC", "_values5"]
+- ["23MultiplatformBleAdapter4SinkC", "_values6"]
+- ["23MultiplatformBleAdapter4SinkC", "_values7"]
+- ["23MultiplatformBleAdapter4SinkC", "_values8"]
+- ["23MultiplatformBleAdapter4SinkC", "getResult"]
+- ["23MultiplatformBleAdapter4SinkC", "hasElements"]
+- !private ["23MultiplatformBleAdapter4SinkC", "lock"]
+- ["23MultiplatformBleAdapter4SinkC", "parent"]
+- ["23MultiplatformBleAdapter4SinkC", "run"]
+- !private ["23MultiplatformBleAdapter4SinkC", "rxFatalError"]
+- ["23MultiplatformBleAdapter4SinkC", "values1"]
+- ["23MultiplatformBleAdapter4SinkC", "values2"]
+- ["23MultiplatformBleAdapter4SinkC", "values3"]
+- ["23MultiplatformBleAdapter4SinkC", "values4"]
+- ["23MultiplatformBleAdapter4SinkC", "values5"]
+- ["23MultiplatformBleAdapter4SinkC", "values6"]
+- ["23MultiplatformBleAdapter4SinkC", "values7"]
+- ["23MultiplatformBleAdapter4SinkC", "values8"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "init"]
+- ["23MultiplatformBleAdapter4Zip2C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip2C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip2C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip2C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip2C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip2C", "ZipSink2_"]
+- ["23MultiplatformBleAdapter4Zip2C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip2C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip2C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip2C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip2C", "run"]
+- ["23MultiplatformBleAdapter4Zip2C", "source1"]
+- ["23MultiplatformBleAdapter4Zip2C", "source2"]
+- ["23MultiplatformBleAdapter4Zip3C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip3C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip3C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip3C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip3C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip3C", "ZipSink3_"]
+- ["23MultiplatformBleAdapter4Zip3C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip3C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip3C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip3C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip3C", "run"]
+- ["23MultiplatformBleAdapter4Zip3C", "source1"]
+- ["23MultiplatformBleAdapter4Zip3C", "source2"]
+- ["23MultiplatformBleAdapter4Zip3C", "source3"]
+- ["23MultiplatformBleAdapter4Zip4C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip4C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip4C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip4C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip4C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip4C", "ZipSink4_"]
+- ["23MultiplatformBleAdapter4Zip4C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip4C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip4C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip4C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip4C", "run"]
+- ["23MultiplatformBleAdapter4Zip4C", "source1"]
+- ["23MultiplatformBleAdapter4Zip4C", "source2"]
+- ["23MultiplatformBleAdapter4Zip4C", "source3"]
+- ["23MultiplatformBleAdapter4Zip4C", "source4"]
+- ["23MultiplatformBleAdapter4Zip5C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip5C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip5C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip5C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip5C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip5C", "ZipSink5_"]
+- ["23MultiplatformBleAdapter4Zip5C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip5C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip5C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip5C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip5C", "run"]
+- ["23MultiplatformBleAdapter4Zip5C", "source1"]
+- ["23MultiplatformBleAdapter4Zip5C", "source2"]
+- ["23MultiplatformBleAdapter4Zip5C", "source3"]
+- ["23MultiplatformBleAdapter4Zip5C", "source4"]
+- ["23MultiplatformBleAdapter4Zip5C", "source5"]
+- ["23MultiplatformBleAdapter4Zip6C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip6C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip6C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip6C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip6C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip6C", "ZipSink6_"]
+- ["23MultiplatformBleAdapter4Zip6C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip6C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip6C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip6C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip6C", "run"]
+- ["23MultiplatformBleAdapter4Zip6C", "source1"]
+- ["23MultiplatformBleAdapter4Zip6C", "source2"]
+- ["23MultiplatformBleAdapter4Zip6C", "source3"]
+- ["23MultiplatformBleAdapter4Zip6C", "source4"]
+- ["23MultiplatformBleAdapter4Zip6C", "source5"]
+- ["23MultiplatformBleAdapter4Zip6C", "source6"]
+- ["23MultiplatformBleAdapter4Zip7C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip7C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip7C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip7C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip7C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip7C", "ZipSink7_"]
+- ["23MultiplatformBleAdapter4Zip7C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip7C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip7C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip7C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip7C", "run"]
+- ["23MultiplatformBleAdapter4Zip7C", "source1"]
+- ["23MultiplatformBleAdapter4Zip7C", "source2"]
+- ["23MultiplatformBleAdapter4Zip7C", "source3"]
+- ["23MultiplatformBleAdapter4Zip7C", "source4"]
+- ["23MultiplatformBleAdapter4Zip7C", "source5"]
+- ["23MultiplatformBleAdapter4Zip7C", "source6"]
+- ["23MultiplatformBleAdapter4Zip7C", "source7"]
+- ["23MultiplatformBleAdapter4Zip8C", "Cancelable"]
+- ["23MultiplatformBleAdapter4Zip8C", "Disposable"]
+- ["23MultiplatformBleAdapter4Zip8C", "Observable"]
+- ["23MultiplatformBleAdapter4Zip8C", "ObserverType"]
+- ["23MultiplatformBleAdapter4Zip8C", "ResultSelector"]
+- !private ["23MultiplatformBleAdapter4Zip8C", "ZipSink8_"]
+- ["23MultiplatformBleAdapter4Zip8C", "_resultSelector"]
+- ["23MultiplatformBleAdapter4Zip8C", "deinit"]
+- ["23MultiplatformBleAdapter4Zip8C", "init"]
+- !private ["23MultiplatformBleAdapter4Zip8C", "resultSelector"]
+- ["23MultiplatformBleAdapter4Zip8C", "run"]
+- ["23MultiplatformBleAdapter4Zip8C", "source1"]
+- ["23MultiplatformBleAdapter4Zip8C", "source2"]
+- ["23MultiplatformBleAdapter4Zip8C", "source3"]
+- ["23MultiplatformBleAdapter4Zip8C", "source4"]
+- ["23MultiplatformBleAdapter4Zip8C", "source5"]
+- ["23MultiplatformBleAdapter4Zip8C", "source6"]
+- ["23MultiplatformBleAdapter4Zip8C", "source7"]
+- ["23MultiplatformBleAdapter4Zip8C", "source8"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", ""]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "init"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Bool"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Disposable"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "Disposables"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Int"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Parent"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Queue"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "R"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip2"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip3"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip4"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip5"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip6"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip7"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Zip8"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "ZipObserver"]
+- ["23MultiplatformBleAdapter7ZipSinkC", ""]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "_lock"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_parent"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values1"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values2"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values3"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values4"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values5"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values6"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values7"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_values8"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "getResult"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "hasElements"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "init"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "lock"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "parent"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "run"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "rxFatalError"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values1"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values2"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values3"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values4"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values5"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values6"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values7"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "values8"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "Zip2"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink2_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink2_C", "values2"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "Zip3"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink3_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink3_C", "values3"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "Zip4"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "_values4"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink4_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "values3"]
+- !private ["23MultiplatformBleAdapter9ZipSink4_C", "values4"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "Zip5"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_values4"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "_values5"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink5_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "values3"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "values4"]
+- !private ["23MultiplatformBleAdapter9ZipSink5_C", "values5"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "Zip6"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values4"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values5"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "_values6"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink6_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values3"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values4"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values5"]
+- !private ["23MultiplatformBleAdapter9ZipSink6_C", "values6"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "Zip7"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values4"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values5"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values6"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "_values7"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink7_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values3"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values4"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values5"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values6"]
+- !private ["23MultiplatformBleAdapter9ZipSink7_C", "values7"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Bool"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Cancelable"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Disposable"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "Disposables"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Int"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Parent"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Queue"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "R"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "Zip8"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "ZipObserver"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", ""]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "_lock"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_parent"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values1"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values2"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values3"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values4"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values5"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values6"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values7"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "_values8"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "deinit"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "getResult"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "hasElements"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "init"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "lock"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "parent"]
+- ["23MultiplatformBleAdapter9ZipSink8_C", "run"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values1"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values2"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values3"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values4"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values5"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values6"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values7"]
+- !private ["23MultiplatformBleAdapter9ZipSink8_C", "values8"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "Disposables"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "Queue"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "SingleAssignmentDisposable"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "ZipObserver"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", ""]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_lock"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_parent"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values1"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values2"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values3"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values4"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values5"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values6"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values7"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_values8"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "init"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "lock"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "parent"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "run"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values1"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values2"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values3"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values4"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values5"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values6"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values7"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "values8"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "23MultiplatformBleAdapter10CancelableP"
+- "Sl"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "23MultiplatformBleAdapter11DisposablesV"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- !private "s25ExpressibleByArrayLiteralP"
+- "St"
+- "23MultiplatformBleAdapter4LockP"
+- !private "23MultiplatformBleAdapter13LockOwnerTypeP"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- "23MultiplatformBleAdapter8ProducerC"
+- "23MultiplatformBleAdapter5QueueV"
+- "ST"
+- !private "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- "23MultiplatformBleAdapter4SinkC"
+- !private "23MultiplatformBleAdapter18SynchronizedOnTypeP"
+- "23MultiplatformBleAdapter4Zip2C"
+- "23MultiplatformBleAdapter4Zip3C"
+- "23MultiplatformBleAdapter4Zip4C"
+- "23MultiplatformBleAdapter4Zip5C"
+- "23MultiplatformBleAdapter4Zip6C"
+- "23MultiplatformBleAdapter4Zip7C"
+- "23MultiplatformBleAdapter4Zip8C"
+- !private "23MultiplatformBleAdapter11ZipObserverC"
+- "23MultiplatformBleAdapter7ZipSinkC"
+- "23MultiplatformBleAdapter9ZipSink2_C"
+- "23MultiplatformBleAdapter9ZipSink3_C"
+- "23MultiplatformBleAdapter9ZipSink4_C"
+- "23MultiplatformBleAdapter9ZipSink5_C"
+- "23MultiplatformBleAdapter9ZipSink6_C"
+- "23MultiplatformBleAdapter9ZipSink7_C"
+- "23MultiplatformBleAdapter9ZipSink8_C"
+- "23MultiplatformBleAdapter15ZipSinkProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d57b1b790ce516fc796d22955f9ab71d"

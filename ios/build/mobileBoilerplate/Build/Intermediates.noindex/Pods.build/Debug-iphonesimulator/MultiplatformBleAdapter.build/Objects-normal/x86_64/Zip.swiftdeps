@@ -1,0 +1,415 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ZipSinkProtocol"
+- "ZipSink"
+- "ZipObserver"
+provides-nominal:
+- "23MultiplatformBleAdapter15ZipSinkProtocolP"
+- "23MultiplatformBleAdapter7ZipSinkC"
+- "23MultiplatformBleAdapter11ZipObserverC"
+provides-member:
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", ""]
+- ["23MultiplatformBleAdapter7ZipSinkC", ""]
+- ["23MultiplatformBleAdapter11ZipObserverC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "..<"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Cancelable"
+- "Disposable"
+- "E"
+- "Element"
+- "ElementType"
+- "Event"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LockOwnerType"
+- "O"
+- "ObserverType"
+- "RecursiveLock"
+- "Sink"
+- "Swift"
+- "SynchronizedOnType"
+- "ValueSetter"
+- "ZipObserver"
+- "ZipSink"
+- "ZipSinkProtocol"
+- !private "_arity"
+- !private "_index"
+- !private "_isDone"
+- !private "_lock"
+- !private "_parent"
+- !private "_setNextValue"
+- !private "_this"
+- !private "dispose"
+- !private "forwardOn"
+- !private "getResult"
+- !private "hasElements"
+- !private "rxAbstractMethod"
+- !private "synchronizedOn"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "Bool"]
+- ["23MultiplatformBleAdapter10DisposableP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_arity"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "_isDone"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "arity"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "dispose"]
+- ["23MultiplatformBleAdapter10DisposableP", "done"]
+- ["23MultiplatformBleAdapter10DisposableP", "fail"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "forwardOn"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "getResult"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "hasElements"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "isDone"]
+- ["23MultiplatformBleAdapter10DisposableP", "next"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "rxAbstractMethod"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- ["23MultiplatformBleAdapter5EventO", "completed"]
+- ["23MultiplatformBleAdapter5EventO", "error"]
+- ["23MultiplatformBleAdapter5EventO", "next"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "completed"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "error"]
+- ["23MultiplatformBleAdapter16EventConvertibleP", "next"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", ""]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "subscript"]
+- ["23MultiplatformBleAdapter4LockP", "E"]
+- ["23MultiplatformBleAdapter4LockP", ""]
+- !private ["23MultiplatformBleAdapter4LockP", "_index"]
+- ["23MultiplatformBleAdapter4LockP", "_lock"]
+- !private ["23MultiplatformBleAdapter4LockP", "_parent"]
+- !private ["23MultiplatformBleAdapter4LockP", "_setNextValue"]
+- ["23MultiplatformBleAdapter4LockP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter4LockP", "_this"]
+- !private ["23MultiplatformBleAdapter4LockP", "index"]
+- ["23MultiplatformBleAdapter4LockP", "init"]
+- ["23MultiplatformBleAdapter4LockP", "lock"]
+- ["23MultiplatformBleAdapter4LockP", "on"]
+- !private ["23MultiplatformBleAdapter4LockP", "parent"]
+- !private ["23MultiplatformBleAdapter4LockP", "setNextValue"]
+- !private ["23MultiplatformBleAdapter4LockP", "synchronizedOn"]
+- !private ["23MultiplatformBleAdapter4LockP", "this"]
+- ["23MultiplatformBleAdapter4LockP", "unlock"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "E"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", ""]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_index"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_setNextValue"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "_this"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "index"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "lock"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "on"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "setNextValue"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "synchronizedOn"]
+- !private ["23MultiplatformBleAdapter13LockOwnerTypeP", "this"]
+- ["23MultiplatformBleAdapter13LockOwnerTypeP", "unlock"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So9NSLockingP", "init"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "init"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["Sj", ""]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "E"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", ""]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_index"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_setNextValue"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "_this"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "index"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "lock"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "on"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "setNextValue"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "synchronizedOn"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "this"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "unlock"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["23MultiplatformBleAdapter4SinkC", "Bool"]
+- ["23MultiplatformBleAdapter4SinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter4SinkC", "Element"]
+- ["23MultiplatformBleAdapter4SinkC", "Int"]
+- ["23MultiplatformBleAdapter4SinkC", "RecursiveLock"]
+- ["23MultiplatformBleAdapter4SinkC", "Swift"]
+- ["23MultiplatformBleAdapter4SinkC", ""]
+- ["23MultiplatformBleAdapter4SinkC", "_arity"]
+- ["23MultiplatformBleAdapter4SinkC", "_isDone"]
+- ["23MultiplatformBleAdapter4SinkC", "_lock"]
+- ["23MultiplatformBleAdapter4SinkC", "arity"]
+- !private ["23MultiplatformBleAdapter4SinkC", "dispose"]
+- ["23MultiplatformBleAdapter4SinkC", "done"]
+- ["23MultiplatformBleAdapter4SinkC", "fail"]
+- !private ["23MultiplatformBleAdapter4SinkC", "forwardOn"]
+- ["23MultiplatformBleAdapter4SinkC", "getResult"]
+- ["23MultiplatformBleAdapter4SinkC", "hasElements"]
+- ["23MultiplatformBleAdapter4SinkC", "init"]
+- ["23MultiplatformBleAdapter4SinkC", "isDone"]
+- ["23MultiplatformBleAdapter4SinkC", "lock"]
+- ["23MultiplatformBleAdapter4SinkC", "next"]
+- !private ["23MultiplatformBleAdapter4SinkC", "rxAbstractMethod"]
+- !private ["Sx", ""]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "E"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", ""]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_index"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_lock"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_parent"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_setNextValue"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "_this"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "index"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "lock"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "on"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "parent"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "setNextValue"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "synchronizedOn"]
+- !private ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "this"]
+- ["23MultiplatformBleAdapter18SynchronizedOnTypeP", "unlock"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "Disposable"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "E"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "Event"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "Int"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "RecursiveLock"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "ValueSetter"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "ZipSinkProtocol"]
+- ["23MultiplatformBleAdapter11ZipObserverC", ""]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "_index"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "_lock"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "_parent"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "_setNextValue"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "_synchronized_on"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "_this"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "deinit"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "index"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "init"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "lock"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "on"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "parent"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "setNextValue"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "synchronizedOn"]
+- !private ["23MultiplatformBleAdapter11ZipObserverC", "this"]
+- ["23MultiplatformBleAdapter11ZipObserverC", "unlock"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Bool"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Cancelable"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Element"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Int"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "RecursiveLock"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "Swift"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", ""]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_arity"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "_isDone"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "_lock"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "arity"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "deinit"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "dispose"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "done"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "fail"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "forwardOn"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "getResult"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "hasElements"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "init"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "isDone"]
+- ["23MultiplatformBleAdapter7ZipSinkC", "next"]
+- !private ["23MultiplatformBleAdapter7ZipSinkC", "rxAbstractMethod"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "Bool"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "Int"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "RecursiveLock"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "Swift"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", ""]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_arity"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "_isDone"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "arity"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "dispose"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "done"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "fail"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "forwardOn"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "getResult"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "hasElements"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "isDone"]
+- ["23MultiplatformBleAdapter15ZipSinkProtocolP", "next"]
+- !private ["23MultiplatformBleAdapter15ZipSinkProtocolP", "rxAbstractMethod"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "SE"
+- "SQ"
+- "23MultiplatformBleAdapter5EventO"
+- "23MultiplatformBleAdapter16EventConvertibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "23MultiplatformBleAdapter4LockP"
+- "23MultiplatformBleAdapter13LockOwnerTypeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- !private "Sj"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- !private "Sk"
+- !private "Sm"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- !private "ST"
+- "23MultiplatformBleAdapter4SinkC"
+- !private "Sx"
+- "23MultiplatformBleAdapter18SynchronizedOnTypeP"
+- "23MultiplatformBleAdapter11ZipObserverC"
+- "23MultiplatformBleAdapter7ZipSinkC"
+- "23MultiplatformBleAdapter15ZipSinkProtocolP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e4530345ff18033e9b4d521df0219f54"

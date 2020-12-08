@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/detail/Demangle.cpp \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Target\ Support\ Files/Folly/Folly-prefix.pch \
+  /Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Folly/folly/detail/Demangle.h

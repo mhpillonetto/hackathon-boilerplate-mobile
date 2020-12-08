@@ -1,0 +1,768 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCBCentralManager"
+provides-nominal:
+- "23MultiplatformBleAdapter18RxCBCentralManagerC"
+provides-member:
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", ""]
+provides-dynamic-lookup:
+- "cancelPeripheralConnection"
+- "centralManager"
+- "centralManagerDidUpdateState"
+- "connect"
+- "didConnectPerihperalSubject"
+- "didDisconnectPeripheral"
+- "didDiscoverPeripheralSubject"
+- "didFailToConnectPeripheralSubject"
+- "didUpdateStateSubject"
+- "internalDelegate"
+- "objectId"
+- "retrieveConnectedPeripherals"
+- "retrievePeripherals"
+- "rx_didConnectPeripheral"
+- "rx_didDisconnectPeripheral"
+- "rx_didDiscoverPeripheral"
+- "rx_didFailToConnectPeripheral"
+- "rx_didUpdateState"
+- "rx_willRestoreState"
+- "scanForPeripherals"
+- "state"
+- "stopScan"
+- "willRestoreStateSubject"
+depends-top-level:
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BluetoothState"
+- "CBCentralManager"
+- "CBCentralManagerDelegate"
+- "CBPeripheral"
+- "CBUUID"
+- "CastingPrecedence"
+- "DispatchQueue"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "InternalDelegate"
+- "NSNumber"
+- "NSObject"
+- !private "ObjectIdentifier"
+- "Observable"
+- "PublishSubject"
+- "ReplaySubject"
+- !private "RxBluetoothKitLog"
+- "RxCBCentralManager"
+- "RxCBPeripheral"
+- "RxCentralManagerType"
+- "RxPeripheralType"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UUID"
+- !private "UnicodeScalarType"
+- !private "centralManager"
+- !private "didConnectPerihperalSubject"
+- !private "didDisconnectPeripheral"
+- !private "didDiscoverPeripheralSubject"
+- !private "didFailToConnectPeripheralSubject"
+- !private "didUpdateStateSubject"
+- !private "internalDelegate"
+- !private "willRestoreStateSubject"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "logDescription"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "logDescription"]
+- !private ["SK", "map"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", "RawValue"]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", ""]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", "init"]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", "logDescription"]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", "unsupported"]
+- !private ["So16CBCentralManagerC", ""]
+- !private ["So16CBCentralManagerC", "cancelPeripheralConnection"]
+- !private ["So16CBCentralManagerC", "connect"]
+- !private ["So16CBCentralManagerC", "init"]
+- !private ["So16CBCentralManagerC", "logDescription"]
+- !private ["So16CBCentralManagerC", "retrieveConnectedPeripherals"]
+- !private ["So16CBCentralManagerC", "retrievePeripherals"]
+- !private ["So16CBCentralManagerC", "scanForPeripherals"]
+- !private ["So16CBCentralManagerC", "state"]
+- !private ["So16CBCentralManagerC", "stopScan"]
+- !private ["So24CBCentralManagerDelegateP", "BluetoothState"]
+- ["So24CBCentralManagerDelegateP", "PublishSubject"]
+- ["So24CBCentralManagerDelegateP", "ReplaySubject"]
+- !private ["So24CBCentralManagerDelegateP", "RxBluetoothKitLog"]
+- !private ["So24CBCentralManagerDelegateP", "RxCBPeripheral"]
+- !private ["So24CBCentralManagerDelegateP", "String"]
+- !private ["So24CBCentralManagerDelegateP", ""]
+- ["So24CBCentralManagerDelegateP", "centralManager"]
+- ["So24CBCentralManagerDelegateP", "centralManagerDidUpdateState"]
+- ["So24CBCentralManagerDelegateP", "deinit"]
+- ["So24CBCentralManagerDelegateP", "didConnectPerihperalSubject"]
+- ["So24CBCentralManagerDelegateP", "didDisconnectPeripheral"]
+- ["So24CBCentralManagerDelegateP", "didDiscoverPeripheralSubject"]
+- ["So24CBCentralManagerDelegateP", "didFailToConnectPeripheralSubject"]
+- ["So24CBCentralManagerDelegateP", "didUpdateStateSubject"]
+- ["So24CBCentralManagerDelegateP", "init"]
+- ["So24CBCentralManagerDelegateP", "willRestoreStateSubject"]
+- ["So9CBManagerC", ""]
+- !private ["So9CBManagerC", "cancelPeripheralConnection"]
+- !private ["So9CBManagerC", "connect"]
+- !private ["So9CBManagerC", "connectPeripheral"]
+- !private ["So9CBManagerC", "init"]
+- !private ["So9CBManagerC", "logDescription"]
+- !private ["So9CBManagerC", "retrieveConnectedPeripherals"]
+- !private ["So9CBManagerC", "retrieveConnectedPeripheralsWithServices"]
+- !private ["So9CBManagerC", "retrievePeripherals"]
+- !private ["So9CBManagerC", "retrievePeripheralsWithIdentifiers"]
+- !private ["So9CBManagerC", "scanForPeripherals"]
+- !private ["So9CBManagerC", "scanForPeripheralsWithServices"]
+- !private ["So9CBManagerC", "state"]
+- !private ["So9CBManagerC", "stopScan"]
+- !private ["So14CBManagerStateV", "RawValue"]
+- !private ["So14CBManagerStateV", "rawValue"]
+- ["So6CBPeerC", ""]
+- !private ["So6CBPeerC", "logDescription"]
+- !private ["So12CBPeripheralC", ""]
+- !private ["So12CBPeripheralC", "logDescription"]
+- !private ["So6CBUUIDC", ""]
+- !private ["s7CVarArgP", "BluetoothState"]
+- ["s7CVarArgP", "PublishSubject"]
+- ["s7CVarArgP", "ReplaySubject"]
+- !private ["s7CVarArgP", "RxBluetoothKitLog"]
+- !private ["s7CVarArgP", "RxCBPeripheral"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancelPeripheralConnection"]
+- ["s7CVarArgP", "centralManager"]
+- ["s7CVarArgP", "centralManagerDidUpdateState"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "didConnectPerihperalSubject"]
+- !private ["s7CVarArgP", "didDisconnectPeripheral"]
+- !private ["s7CVarArgP", "didDiscoverPeripheralSubject"]
+- !private ["s7CVarArgP", "didFailToConnectPeripheralSubject"]
+- !private ["s7CVarArgP", "didUpdateStateSubject"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "logDescription"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "retrieveConnectedPeripherals"]
+- !private ["s7CVarArgP", "retrievePeripherals"]
+- !private ["s7CVarArgP", "scanForPeripherals"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stopScan"]
+- !private ["s7CVarArgP", "willRestoreStateSubject"]
+- ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "onNext"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "logDescription"]
+- !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "logDescription"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "BluetoothState"]
+- ["s28CustomDebugStringConvertibleP", "PublishSubject"]
+- ["s28CustomDebugStringConvertibleP", "ReplaySubject"]
+- !private ["s28CustomDebugStringConvertibleP", "RxBluetoothKitLog"]
+- !private ["s28CustomDebugStringConvertibleP", "RxCBPeripheral"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cancelPeripheralConnection"]
+- ["s28CustomDebugStringConvertibleP", "centralManager"]
+- ["s28CustomDebugStringConvertibleP", "centralManagerDidUpdateState"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "didConnectPerihperalSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "didDisconnectPeripheral"]
+- !private ["s28CustomDebugStringConvertibleP", "didDiscoverPeripheralSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "didFailToConnectPeripheralSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "didUpdateStateSubject"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "logDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "retrieveConnectedPeripherals"]
+- !private ["s28CustomDebugStringConvertibleP", "retrievePeripherals"]
+- !private ["s28CustomDebugStringConvertibleP", "scanForPeripherals"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stopScan"]
+- !private ["s28CustomDebugStringConvertibleP", "willRestoreStateSubject"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "logDescription"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "BluetoothState"]
+- ["s23CustomStringConvertibleP", "PublishSubject"]
+- ["s23CustomStringConvertibleP", "ReplaySubject"]
+- !private ["s23CustomStringConvertibleP", "RxBluetoothKitLog"]
+- !private ["s23CustomStringConvertibleP", "RxCBPeripheral"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "cancelPeripheralConnection"]
+- ["s23CustomStringConvertibleP", "centralManager"]
+- ["s23CustomStringConvertibleP", "centralManagerDidUpdateState"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "didConnectPerihperalSubject"]
+- !private ["s23CustomStringConvertibleP", "didDisconnectPeripheral"]
+- !private ["s23CustomStringConvertibleP", "didDiscoverPeripheralSubject"]
+- !private ["s23CustomStringConvertibleP", "didFailToConnectPeripheralSubject"]
+- !private ["s23CustomStringConvertibleP", "didUpdateStateSubject"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "logDescription"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "retrieveConnectedPeripherals"]
+- !private ["s23CustomStringConvertibleP", "retrievePeripherals"]
+- !private ["s23CustomStringConvertibleP", "scanForPeripherals"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stopScan"]
+- !private ["s23CustomStringConvertibleP", "willRestoreStateSubject"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "logDescription"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "init"]
+- !private ["Se", "logDescription"]
+- !private ["Se", "map"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- ["23MultiplatformBleAdapter10DisposableP", "create"]
+- ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "onNext"]
+- !private ["SE", "init"]
+- !private ["SE", "logDescription"]
+- !private ["SE", "map"]
+- !private ["SQ", "BluetoothState"]
+- ["SQ", "PublishSubject"]
+- !private ["SQ", "RawValue"]
+- ["SQ", "ReplaySubject"]
+- !private ["SQ", "RxBluetoothKitLog"]
+- !private ["SQ", "RxCBPeripheral"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "cancelPeripheralConnection"]
+- ["SQ", "centralManager"]
+- ["SQ", "centralManagerDidUpdateState"]
+- !private ["SQ", "connect"]
+- !private ["SQ", "didConnectPerihperalSubject"]
+- !private ["SQ", "didDisconnectPeripheral"]
+- !private ["SQ", "didDiscoverPeripheralSubject"]
+- !private ["SQ", "didFailToConnectPeripheralSubject"]
+- !private ["SQ", "didUpdateStateSubject"]
+- ["SQ", "init"]
+- !private ["SQ", "logDescription"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "retrieveConnectedPeripherals"]
+- !private ["SQ", "retrievePeripherals"]
+- !private ["SQ", "scanForPeripherals"]
+- !private ["SQ", "state"]
+- !private ["SQ", "stopScan"]
+- !private ["SQ", "unsupported"]
+- !private ["SQ", "willRestoreStateSubject"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "logDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "BluetoothState"]
+- ["SH", "PublishSubject"]
+- !private ["SH", "RawValue"]
+- ["SH", "ReplaySubject"]
+- !private ["SH", "RxBluetoothKitLog"]
+- !private ["SH", "RxCBPeripheral"]
+- !private ["SH", "String"]
+- !private ["SH", ""]
+- !private ["SH", "cancelPeripheralConnection"]
+- ["SH", "centralManager"]
+- ["SH", "centralManagerDidUpdateState"]
+- !private ["SH", "connect"]
+- !private ["SH", "didConnectPerihperalSubject"]
+- !private ["SH", "didDisconnectPeripheral"]
+- !private ["SH", "didDiscoverPeripheralSubject"]
+- !private ["SH", "didFailToConnectPeripheralSubject"]
+- !private ["SH", "didUpdateStateSubject"]
+- ["SH", "init"]
+- !private ["SH", "logDescription"]
+- !private ["SH", "map"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "retrieveConnectedPeripherals"]
+- !private ["SH", "retrievePeripherals"]
+- !private ["SH", "scanForPeripherals"]
+- !private ["SH", "state"]
+- !private ["SH", "stopScan"]
+- !private ["SH", "unsupported"]
+- !private ["SH", "willRestoreStateSubject"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "cancelPeripheralConnection"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "connect"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "init"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "logDescription"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "retrieveConnectedPeripherals"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "retrievePeripherals"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "scanForPeripherals"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "state"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "stopScan"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "unsupported"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "logDescription"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "logDescription"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "logDescription"]
+- ["So8NSObjectC", "BluetoothState"]
+- ["So8NSObjectC", "CBCentralManager"]
+- ["So8NSObjectC", "CBPeripheral"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "PublishSubject"]
+- ["So8NSObjectC", "ReplaySubject"]
+- !private ["So8NSObjectC", "RxBluetoothKitLog"]
+- !private ["So8NSObjectC", "RxCBPeripheral"]
+- ["So8NSObjectC", "RxPeripheralType"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "cancelPeripheralConnection"]
+- ["So8NSObjectC", "centralManager"]
+- ["So8NSObjectC", "centralManagerDidUpdateState"]
+- !private ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "connectPeripheral"]
+- ["So8NSObjectC", "didConnectPerihperalSubject"]
+- ["So8NSObjectC", "didDisconnectPeripheral"]
+- ["So8NSObjectC", "didDiscoverPeripheralSubject"]
+- ["So8NSObjectC", "didFailToConnectPeripheralSubject"]
+- ["So8NSObjectC", "didUpdateStateSubject"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "logDescription"]
+- !private ["So8NSObjectC", "retrieveConnectedPeripherals"]
+- !private ["So8NSObjectC", "retrieveConnectedPeripheralsWithServices"]
+- !private ["So8NSObjectC", "retrievePeripherals"]
+- !private ["So8NSObjectC", "retrievePeripheralsWithIdentifiers"]
+- !private ["So8NSObjectC", "scanForPeripherals"]
+- !private ["So8NSObjectC", "scanForPeripheralsWithServices"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "stopScan"]
+- ["So8NSObjectC", "willRestoreStateSubject"]
+- ["So8NSObjectP", "BluetoothState"]
+- ["So8NSObjectP", "CBCentralManager"]
+- ["So8NSObjectP", "CBPeripheral"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", "NSNumber"]
+- ["So8NSObjectP", "PublishSubject"]
+- ["So8NSObjectP", "ReplaySubject"]
+- !private ["So8NSObjectP", "RxBluetoothKitLog"]
+- !private ["So8NSObjectP", "RxCBPeripheral"]
+- ["So8NSObjectP", "RxPeripheralType"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cancelPeripheralConnection"]
+- ["So8NSObjectP", "centralManager"]
+- ["So8NSObjectP", "centralManagerDidUpdateState"]
+- !private ["So8NSObjectP", "connect"]
+- !private ["So8NSObjectP", "connectPeripheral"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "didConnectPerihperalSubject"]
+- ["So8NSObjectP", "didDisconnectPeripheral"]
+- ["So8NSObjectP", "didDiscoverPeripheralSubject"]
+- ["So8NSObjectP", "didFailToConnectPeripheralSubject"]
+- ["So8NSObjectP", "didUpdateStateSubject"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "logDescription"]
+- !private ["So8NSObjectP", "retrieveConnectedPeripherals"]
+- !private ["So8NSObjectP", "retrieveConnectedPeripheralsWithServices"]
+- !private ["So8NSObjectP", "retrievePeripherals"]
+- !private ["So8NSObjectP", "retrievePeripheralsWithIdentifiers"]
+- !private ["So8NSObjectP", "scanForPeripherals"]
+- !private ["So8NSObjectP", "scanForPeripheralsWithServices"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopScan"]
+- ["So8NSObjectP", "willRestoreStateSubject"]
+- ["So7NSValueC", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["SO", "init"]
+- ["23MultiplatformBleAdapter10ObservableC", ""]
+- ["23MultiplatformBleAdapter10ObservableC", "create"]
+- ["23MultiplatformBleAdapter10ObservableC", "init"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "just"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "onNext"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "create"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "init"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "just"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "onNext"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", ""]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "create"]
+- ["23MultiplatformBleAdapter14ObservableTypeP", "init"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "just"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "onNext"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "create"]
+- ["23MultiplatformBleAdapter12ObserverTypeP", "init"]
+- !private ["23MultiplatformBleAdapter12ObserverTypeP", "onNext"]
+- !private ["23MultiplatformBleAdapter14PublishSubjectC", ""]
+- ["23MultiplatformBleAdapter14PublishSubjectC", "init"]
+- !private ["23MultiplatformBleAdapter14PublishSubjectC", "onNext"]
+- !private ["Sk", ""]
+- !private ["Sk", "logDescription"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "logDescription"]
+- !private ["Sm", "map"]
+- !private ["SY", "RawValue"]
+- !private ["SY", "init"]
+- !private ["SY", "logDescription"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "unsupported"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "BluetoothState"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "PublishSubject"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "ReplaySubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "RxCBPeripheral"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "String"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", ""]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "cancelPeripheralConnection"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "centralManager"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "centralManagerDidUpdateState"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "connect"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "d"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "didConnectPerihperalSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "didDisconnectPeripheral"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "didDiscoverPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "didFailToConnectPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "didUpdateStateSubject"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "init"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "logDescription"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "retrieveConnectedPeripherals"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "retrievePeripherals"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "scanForPeripherals"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "state"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "stopScan"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "v"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "willRestoreStateSubject"]
+- !private ["23MultiplatformBleAdapter13ReplaySubjectC", ""]
+- ["23MultiplatformBleAdapter13ReplaySubjectC", "create"]
+- !private ["23MultiplatformBleAdapter13ReplaySubjectC", "onNext"]
+- !private ["23MultiplatformBleAdapter17RxBluetoothKitLogC", "d"]
+- !private ["23MultiplatformBleAdapter17RxBluetoothKitLogC", "v"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "AnyObject"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "BluetoothState"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "CBCentralManager"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "CBCentralManagerDelegate"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "CBPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "CBUUID"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "DispatchQueue"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "Error"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "InternalDelegate"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "NSNumber"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "NSObject"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "ObjectIdentifier"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "Observable"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "PublishSubject"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "ReplaySubject"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "RxCBPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "RxPeripheralType"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "String"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "UInt"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "UUID"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", ""]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "cancelPeripheralConnection"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "centralManager"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "connect"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "deinit"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "didConnectPerihperalSubject"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "didDisconnectPeripheral"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "didDiscoverPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "didFailToConnectPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "didUpdateStateSubject"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "init"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "internalDelegate"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "objectId"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "retrieveConnectedPeripherals"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "retrievePeripherals"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_didConnectPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_didDisconnectPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_didDiscoverPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_didFailToConnectPeripheral"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_didUpdateState"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "rx_willRestoreState"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "scanForPeripherals"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "state"]
+- ["23MultiplatformBleAdapter18RxCBCentralManagerC", "stopScan"]
+- !private ["23MultiplatformBleAdapter18RxCBCentralManagerC", "willRestoreStateSubject"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", ""]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "init"]
+- !private ["23MultiplatformBleAdapter14RxCBPeripheralC", "peripheral"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "BluetoothState"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "CBCentralManager"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "CBCentralManagerDelegate"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "InternalDelegate"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "ObjectIdentifier"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "PublishSubject"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "ReplaySubject"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "RxBluetoothKitLog"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "RxCBPeripheral"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "String"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "UInt"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", ""]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "cancelPeripheralConnection"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "centralManager"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "connect"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "didConnectPerihperalSubject"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "didDisconnectPeripheral"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "didDiscoverPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "didFailToConnectPeripheralSubject"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "didUpdateStateSubject"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "internalDelegate"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "objectId"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "retrieveConnectedPeripherals"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "retrievePeripherals"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_didConnectPeripheral"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_didDisconnectPeripheral"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_didDiscoverPeripheral"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_didFailToConnectPeripheral"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_didUpdateState"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "rx_willRestoreState"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "scanForPeripherals"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "state"]
+- ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "stopScan"]
+- !private ["23MultiplatformBleAdapter20RxCentralManagerTypeP", "willRestoreStateSubject"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "init"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheral"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "logDescription"]
+- !private ["ST", "map"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "create"]
+- ["23MultiplatformBleAdapter11SubjectTypeP", "init"]
+- !private ["23MultiplatformBleAdapter11SubjectTypeP", "onNext"]
+- ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP", "onNext"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- !private ["10Foundation4UUIDV", ""]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "logDescription"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "logDescription"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "logDescription"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "logDescription"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BluetoothState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PublishSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReplaySubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxBluetoothKitLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxCBPeripheral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelPeripheralConnection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "centralManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "centralManagerDidUpdateState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didConnectPerihperalSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didDisconnectPeripheral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didDiscoverPeripheralSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didFailToConnectPeripheralSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didUpdateStateSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retrieveConnectedPeripherals"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retrievePeripherals"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scanForPeripherals"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopScan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willRestoreStateSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetoothState"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PublishSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ReplaySubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxBluetoothKitLog"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxCBPeripheral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelPeripheralConnection"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centralManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centralManagerDidUpdateState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didConnectPerihperalSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didDisconnectPeripheral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didDiscoverPeripheralSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didFailToConnectPeripheralSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didUpdateStateSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "logDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "retrieveConnectedPeripherals"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "retrievePeripherals"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scanForPeripherals"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopScan"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willRestoreStateSubject"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "logDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "23MultiplatformBleAdapter14BluetoothStateO"
+- !private "So16CBCentralManagerC"
+- "So24CBCentralManagerDelegateP"
+- "So9CBManagerC"
+- !private "So14CBManagerStateV"
+- "So6CBPeerC"
+- !private "So12CBPeripheralC"
+- !private "So6CBUUIDC"
+- "s7CVarArgP"
+- "23MultiplatformBleAdapter10CancelableP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "23MultiplatformBleAdapter10DisposableP"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "23MultiplatformBleAdapter8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So7NSValueC"
+- !private "Sj"
+- !private "SO"
+- "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter12ObserverTypeP"
+- "23MultiplatformBleAdapter14PublishSubjectC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- "23MultiplatformBleAdapter13ReplaySubjectC"
+- !private "23MultiplatformBleAdapter17RxBluetoothKitLogC"
+- "23MultiplatformBleAdapter18RxCBCentralManagerC"
+- !private "23MultiplatformBleAdapter14RxCBPeripheralC"
+- "23MultiplatformBleAdapter20RxCentralManagerTypeP"
+- !private "23MultiplatformBleAdapter16RxPeripheralTypeP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "23MultiplatformBleAdapter11SubjectTypeP"
+- "23MultiplatformBleAdapter27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- !private "10Foundation4UUIDV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dcc57905d1720f3964d107553ffadfa6"

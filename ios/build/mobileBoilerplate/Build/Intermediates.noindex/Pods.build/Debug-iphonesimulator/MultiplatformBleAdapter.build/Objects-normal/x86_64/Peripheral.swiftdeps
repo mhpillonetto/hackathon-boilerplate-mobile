@@ -1,0 +1,482 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Peripheral"
+- "=="
+provides-nominal:
+- "23MultiplatformBleAdapter10PeripheralC"
+provides-member:
+- ["23MultiplatformBleAdapter10PeripheralC", ""]
+provides-dynamic-lookup:
+- "cancelConnection"
+- "cbPeripheral"
+- "connect"
+- "discoverCharacteristics"
+- "discoverDescriptors"
+- "discoverIncludedServices"
+- "discoverServices"
+- "ensureValidPeripheralState"
+- "ensureValidPeripheralStateAndCallIfSucceeded"
+- "identifier"
+- "isConnected"
+- "manager"
+- "maximumWriteValueLength"
+- "monitorNameUpdate"
+- "monitorServicesModification"
+- "monitorValueUpdate"
+- "monitorWrite"
+- "name"
+- "objectId"
+- "peripheral"
+- "readRSSI"
+- "readValue"
+- "rx_isConnected"
+- "services"
+- "setNotificationAndMonitorUpdates"
+- "setNotifyValue"
+- "state"
+- "writeValue"
+depends-top-level:
+- !private "!"
+- "=="
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BluetoothError"
+- "BluetoothManager"
+- "Bool"
+- "BooleanLiteralType"
+- "CBCharacteristicWriteType"
+- "CBPeripheral"
+- "CBPeripheralState"
+- "CBUUID"
+- "Characteristic"
+- !private "CurrentThreadScheduler"
+- "Data"
+- "Descriptor"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Observable"
+- "Peripheral"
+- "RxPeripheralType"
+- "Service"
+- "String"
+- "UInt"
+- "UUID"
+- "Void"
+- !private "ensureValidPeripheralState"
+- !private "ensureValidPeripheralStateAndCallIfSucceeded"
+- "filterUUIDItems"
+- !private "manager"
+- !private "monitorValueUpdate"
+- !private "peripheral"
+- !private "setNotifyValue"
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", ""]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "characteristicNotifyChangeFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "characteristicReadFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "characteristicWriteFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "characteristicsDiscoveryFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "descriptorReadFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "descriptorWriteFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "descriptorsDiscoveryFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "destroyed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "includedServicesDiscoveryFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "peripheralRSSIReadFailed"]
+- !private ["23MultiplatformBleAdapter14BluetoothErrorO", "servicesDiscoveryFailed"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "cancelPeripheralConnection"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "connect"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "ensure"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "ensurePeripheralIsConnected"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "monitorConnection"]
+- !private ["23MultiplatformBleAdapter16BluetoothManagerC", "monitorDisconnection"]
+- !private ["23MultiplatformBleAdapter14BluetoothStateO", "poweredOn"]
+- ["So25CBCharacteristicWriteTypeV", "withResponse"]
+- ["So25CBCharacteristicWriteTypeV", "withoutResponse"]
+- !private ["So17CBPeripheralStateV", "=="]
+- !private ["So17CBPeripheralStateV", "RawValue"]
+- !private ["So17CBPeripheralStateV", "connected"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", ""]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "characteristic"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "descriptors"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "init"]
+- !private ["Sl", "Iterator"]
+- !private ["Sl", ""]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["23MultiplatformBleAdapter22CurrentThreadSchedulerC", ""]
+- !private ["23MultiplatformBleAdapter22CurrentThreadSchedulerC", "instance"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "characteristicNotifyChangeFailed"]
+- !private ["s23CustomStringConvertibleP", "characteristicReadFailed"]
+- !private ["s23CustomStringConvertibleP", "characteristicWriteFailed"]
+- !private ["s23CustomStringConvertibleP", "characteristicsDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "descriptorReadFailed"]
+- !private ["s23CustomStringConvertibleP", "descriptorWriteFailed"]
+- !private ["s23CustomStringConvertibleP", "descriptorsDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "destroyed"]
+- !private ["s23CustomStringConvertibleP", "includedServicesDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "peripheralRSSIReadFailed"]
+- !private ["s23CustomStringConvertibleP", "servicesDiscoveryFailed"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["23MultiplatformBleAdapter10DescriptorC", "descriptor"]
+- !private ["23MultiplatformBleAdapter10DescriptorC", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "BluetoothError"]
+- !private ["SQ", "Characteristic"]
+- !private ["SQ", "CurrentThreadScheduler"]
+- !private ["SQ", "Descriptor"]
+- !private ["SQ", "Observable"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "Service"]
+- ["SQ", ""]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "characteristicNotifyChangeFailed"]
+- !private ["SQ", "characteristicReadFailed"]
+- !private ["SQ", "characteristicWriteFailed"]
+- !private ["SQ", "characteristics"]
+- !private ["SQ", "characteristicsDiscoveryFailed"]
+- !private ["SQ", "connected"]
+- !private ["SQ", "descriptor"]
+- !private ["SQ", "descriptorReadFailed"]
+- !private ["SQ", "descriptorWriteFailed"]
+- !private ["SQ", "descriptors"]
+- !private ["SQ", "descriptorsDiscoveryFailed"]
+- !private ["SQ", "destroyed"]
+- !private ["SQ", "ensureValidPeripheralState"]
+- !private ["SQ", "ensureValidPeripheralStateAndCallIfSucceeded"]
+- !private ["SQ", "filterUUIDItems"]
+- !private ["SQ", "includedServices"]
+- !private ["SQ", "includedServicesDiscoveryFailed"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isConnected"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "manager"]
+- !private ["SQ", "map"]
+- !private ["SQ", "monitorValueUpdate"]
+- !private ["SQ", "monitorWrite"]
+- !private ["SQ", "peripheral"]
+- !private ["SQ", "peripheralRSSIReadFailed"]
+- !private ["SQ", "poweredOn"]
+- !private ["SQ", "service"]
+- !private ["SQ", "services"]
+- !private ["SQ", "servicesDiscoveryFailed"]
+- !private ["SQ", "setNotifyValue"]
+- ["SQ", "withResponse"]
+- ["SQ", "withoutResponse"]
+- !private ["s5ErrorP", "characteristicNotifyChangeFailed"]
+- !private ["s5ErrorP", "characteristicReadFailed"]
+- !private ["s5ErrorP", "characteristicWriteFailed"]
+- !private ["s5ErrorP", "characteristicsDiscoveryFailed"]
+- !private ["s5ErrorP", "descriptorReadFailed"]
+- !private ["s5ErrorP", "descriptorWriteFailed"]
+- !private ["s5ErrorP", "descriptorsDiscoveryFailed"]
+- !private ["s5ErrorP", "destroyed"]
+- !private ["s5ErrorP", "includedServicesDiscoveryFailed"]
+- !private ["s5ErrorP", "peripheralRSSIReadFailed"]
+- !private ["s5ErrorP", "servicesDiscoveryFailed"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "=="]
+- !private ["SH", "RawValue"]
+- !private ["SH", "connected"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "poweredOn"]
+- ["SH", "withResponse"]
+- ["SH", "withoutResponse"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "instance"]
+- !private ["St", "Element"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "poweredOn"]
+- ["23MultiplatformBleAdapter8LoggableP", "withResponse"]
+- ["23MultiplatformBleAdapter8LoggableP", "withoutResponse"]
+- !private ["SM", ""]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["23MultiplatformBleAdapter10ObservableC", ""]
+- !private ["23MultiplatformBleAdapter10ObservableC", "absorb"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "deferred"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "empty"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "filter"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "flatMap"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "ignoreElements"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "just"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "map"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "merge"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "of"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "startWith"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter10ObservableC", "take"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "E"]
+- ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", ""]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "absorb"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "asObservable"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "empty"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "filter"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "flatMap"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "ignoreElements"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "just"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "map"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "merge"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "of"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "startWith"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter25ObservableConvertibleTypeP", "take"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "E"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "absorb"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "deferred"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "empty"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "filter"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "flatMap"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "ignoreElements"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "just"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "map"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "merge"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "of"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "startWith"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "subscribeOn"]
+- !private ["23MultiplatformBleAdapter14ObservableTypeP", "take"]
+- ["23MultiplatformBleAdapter10PeripheralC", "=="]
+- ["23MultiplatformBleAdapter10PeripheralC", "AnyObject"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "BluetoothError"]
+- ["23MultiplatformBleAdapter10PeripheralC", "BluetoothManager"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Bool"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CBCharacteristicWriteType"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CBPeripheral"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CBPeripheralState"]
+- ["23MultiplatformBleAdapter10PeripheralC", "CBUUID"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Characteristic"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "CurrentThreadScheduler"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Data"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Descriptor"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Int"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Observable"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Peripheral"]
+- ["23MultiplatformBleAdapter10PeripheralC", "RxPeripheralType"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Service"]
+- ["23MultiplatformBleAdapter10PeripheralC", "String"]
+- ["23MultiplatformBleAdapter10PeripheralC", "UInt"]
+- ["23MultiplatformBleAdapter10PeripheralC", "UUID"]
+- ["23MultiplatformBleAdapter10PeripheralC", "Void"]
+- ["23MultiplatformBleAdapter10PeripheralC", ""]
+- ["23MultiplatformBleAdapter10PeripheralC", "cancelConnection"]
+- ["23MultiplatformBleAdapter10PeripheralC", "cbPeripheral"]
+- ["23MultiplatformBleAdapter10PeripheralC", "connect"]
+- ["23MultiplatformBleAdapter10PeripheralC", "deinit"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverCharacteristics"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverDescriptors"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverIncludedServices"]
+- ["23MultiplatformBleAdapter10PeripheralC", "discoverServices"]
+- ["23MultiplatformBleAdapter10PeripheralC", "ensureValidPeripheralState"]
+- ["23MultiplatformBleAdapter10PeripheralC", "ensureValidPeripheralStateAndCallIfSucceeded"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "filterUUIDItems"]
+- ["23MultiplatformBleAdapter10PeripheralC", "identifier"]
+- ["23MultiplatformBleAdapter10PeripheralC", "init"]
+- ["23MultiplatformBleAdapter10PeripheralC", "isConnected"]
+- ["23MultiplatformBleAdapter10PeripheralC", "manager"]
+- ["23MultiplatformBleAdapter10PeripheralC", "maximumWriteValueLength"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorNameUpdate"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorServicesModification"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorValueUpdate"]
+- ["23MultiplatformBleAdapter10PeripheralC", "monitorWrite"]
+- ["23MultiplatformBleAdapter10PeripheralC", "name"]
+- ["23MultiplatformBleAdapter10PeripheralC", "objectId"]
+- ["23MultiplatformBleAdapter10PeripheralC", "peripheral"]
+- ["23MultiplatformBleAdapter10PeripheralC", "readRSSI"]
+- ["23MultiplatformBleAdapter10PeripheralC", "readValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "rx_isConnected"]
+- ["23MultiplatformBleAdapter10PeripheralC", "services"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotificationAndMonitorUpdates"]
+- ["23MultiplatformBleAdapter10PeripheralC", "setNotifyValue"]
+- ["23MultiplatformBleAdapter10PeripheralC", "state"]
+- ["23MultiplatformBleAdapter10PeripheralC", "writeValue"]
+- !private ["23MultiplatformBleAdapter17PrimitiveSequenceV", ""]
+- !private ["23MultiplatformBleAdapter17PrimitiveSequenceV", "asObservable"]
+- !private ["23MultiplatformBleAdapter21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["Sk", ""]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", "connected"]
+- !private ["SY", "poweredOn"]
+- ["SY", "withResponse"]
+- ["SY", "withoutResponse"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "descriptors"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "canSendWriteWithoutResponse"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverDescriptors"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverIncludedServices"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "discoverServices"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "identifier"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "maximumWriteValueLength"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "name"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "objectId"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "peripheral"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "readRSSI"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "readValue"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverCharacteristicsForService"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverDescriptorsForCharacteristic"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverIncludedServicesForService"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didDiscoverServices"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didModifyServices"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didReadRSSI"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateName"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateNotificationStateForCharacteristic"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateValueForCharacteristic"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didUpdateValueForDescriptor"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didWriteValueForCharacteristic"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_didWriteValueForDescriptor"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "rx_isReadyToSendWriteWithoutResponse"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "services"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "setNotifyValue"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "state"]
+- !private ["23MultiplatformBleAdapter16RxPeripheralTypeP", "writeValue"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "characteristics"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "includedServices"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["23MultiplatformBleAdapter7ServiceC", ""]
+- !private ["23MultiplatformBleAdapter7ServiceC", "characteristics"]
+- !private ["23MultiplatformBleAdapter7ServiceC", "includedServices"]
+- !private ["23MultiplatformBleAdapter7ServiceC", "init"]
+- !private ["23MultiplatformBleAdapter7ServiceC", "service"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "characteristic"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "characteristics"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "descriptors"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "includedServices"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "init"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "service"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "23MultiplatformBleAdapter14BluetoothErrorO"
+- !private "23MultiplatformBleAdapter16BluetoothManagerC"
+- !private "23MultiplatformBleAdapter14BluetoothStateO"
+- "So25CBCharacteristicWriteTypeV"
+- !private "So17CBPeripheralStateV"
+- !private "s7CVarArgP"
+- !private "23MultiplatformBleAdapter14CharacteristicC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "23MultiplatformBleAdapter22CurrentThreadSchedulerC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "23MultiplatformBleAdapter10DescriptorC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "23MultiplatformBleAdapter22ImmediateSchedulerTypeP"
+- !private "St"
+- "23MultiplatformBleAdapter8LoggableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "23MultiplatformBleAdapter10ObservableC"
+- "23MultiplatformBleAdapter25ObservableConvertibleTypeP"
+- !private "23MultiplatformBleAdapter14ObservableTypeP"
+- "23MultiplatformBleAdapter10PeripheralC"
+- !private "23MultiplatformBleAdapter17PrimitiveSequenceV"
+- !private "23MultiplatformBleAdapter21PrimitiveSequenceTypeP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "23MultiplatformBleAdapter20RxCharacteristicTypeP"
+- !private "23MultiplatformBleAdapter16RxPeripheralTypeP"
+- !private "23MultiplatformBleAdapter13RxServiceTypeP"
+- !private "ST"
+- !private "23MultiplatformBleAdapter7ServiceC"
+- !private "23MultiplatformBleAdapter16UUIDIdentifiableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5dd97a863a2b73e4e110734d2586414b"

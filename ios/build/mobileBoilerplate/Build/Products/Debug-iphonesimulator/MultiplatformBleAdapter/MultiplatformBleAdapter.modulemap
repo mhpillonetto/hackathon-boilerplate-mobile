@@ -1,0 +1,12 @@
+module MultiplatformBleAdapter {
+  umbrella header "MultiplatformBleAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module MultiplatformBleAdapter.Swift {
+  header "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/build/mobileBoilerplate/Build/Products/Debug-iphonesimulator/MultiplatformBleAdapter/Swift Compatibility Header/MultiplatformBleAdapter-Swift.h"
+  requires objc
+}

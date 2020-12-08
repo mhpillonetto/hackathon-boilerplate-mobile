@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Service"
+- "=="
+provides-nominal:
+- "23MultiplatformBleAdapter7ServiceC"
+provides-member:
+- ["23MultiplatformBleAdapter7ServiceC", ""]
+provides-dynamic-lookup:
+- "characteristics"
+- "discoverCharacteristics"
+- "discoverIncludedServices"
+- "includedServices"
+- "isPrimary"
+- "objectId"
+- "peripheral"
+- "service"
+- "uuid"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CBUUID"
+- "Characteristic"
+- "Equatable"
+- "Observable"
+- "Peripheral"
+- "RxServiceType"
+- "Service"
+- "UInt"
+- "peripheral"
+- !private "service"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "map"]
+- !private ["23MultiplatformBleAdapter14CharacteristicC", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "map"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "Characteristic"]
+- !private ["SQ", "Service"]
+- ["SQ", ""]
+- !private ["SQ", "discoverCharacteristics"]
+- !private ["SQ", "discoverIncludedServices"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "peripheral"]
+- !private ["SQ", "service"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["SH", "map"]
+- !private ["SM", ""]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "discoverCharacteristics"]
+- !private ["23MultiplatformBleAdapter10PeripheralC", "discoverIncludedServices"]
+- !private ["Sk", ""]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "characteristics"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "includedServices"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "isPrimary"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "objectId"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "uuid"]
+- !private ["ST", ""]
+- !private ["ST", "map"]
+- ["23MultiplatformBleAdapter7ServiceC", "=="]
+- ["23MultiplatformBleAdapter7ServiceC", "Bool"]
+- ["23MultiplatformBleAdapter7ServiceC", "CBUUID"]
+- ["23MultiplatformBleAdapter7ServiceC", "Characteristic"]
+- ["23MultiplatformBleAdapter7ServiceC", "Observable"]
+- ["23MultiplatformBleAdapter7ServiceC", "Peripheral"]
+- ["23MultiplatformBleAdapter7ServiceC", "RxServiceType"]
+- ["23MultiplatformBleAdapter7ServiceC", "Service"]
+- ["23MultiplatformBleAdapter7ServiceC", "UInt"]
+- ["23MultiplatformBleAdapter7ServiceC", ""]
+- ["23MultiplatformBleAdapter7ServiceC", "characteristics"]
+- ["23MultiplatformBleAdapter7ServiceC", "deinit"]
+- ["23MultiplatformBleAdapter7ServiceC", "discoverCharacteristics"]
+- ["23MultiplatformBleAdapter7ServiceC", "discoverIncludedServices"]
+- ["23MultiplatformBleAdapter7ServiceC", "includedServices"]
+- ["23MultiplatformBleAdapter7ServiceC", "init"]
+- ["23MultiplatformBleAdapter7ServiceC", "isPrimary"]
+- ["23MultiplatformBleAdapter7ServiceC", "objectId"]
+- ["23MultiplatformBleAdapter7ServiceC", "peripheral"]
+- ["23MultiplatformBleAdapter7ServiceC", "service"]
+- ["23MultiplatformBleAdapter7ServiceC", "uuid"]
+- ["23MultiplatformBleAdapter16UUIDIdentifiableP", "=="]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "Characteristic"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "Service"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "init"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "peripheral"]
+- !private ["23MultiplatformBleAdapter16UUIDIdentifiableP", "service"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "23MultiplatformBleAdapter14CharacteristicC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "23MultiplatformBleAdapter10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- !private "23MultiplatformBleAdapter13RxServiceTypeP"
+- !private "ST"
+- "23MultiplatformBleAdapter7ServiceC"
+- "23MultiplatformBleAdapter16UUIDIdentifiableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a7696d692c79ce59e5a09bc3a205bae9"

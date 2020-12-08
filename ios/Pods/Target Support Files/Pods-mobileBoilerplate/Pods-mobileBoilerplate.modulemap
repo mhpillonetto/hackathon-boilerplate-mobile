@@ -1,0 +1,6 @@
+module Pods_mobileBoilerplate {
+  umbrella header "Pods-mobileBoilerplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

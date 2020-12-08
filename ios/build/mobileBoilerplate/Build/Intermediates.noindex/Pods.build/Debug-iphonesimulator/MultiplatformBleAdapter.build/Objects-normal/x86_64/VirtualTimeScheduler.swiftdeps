@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VirtualTimeScheduler"
+- "VirtualSchedulerItem"
+provides-nominal:
+- "23MultiplatformBleAdapter20VirtualTimeSchedulerC"
+- "23MultiplatformBleAdapter20VirtualSchedulerItemC"
+provides-member:
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", ""]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "<"
+- "==="
+- "Action"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CompositeDisposable"
+- "Converter"
+- "CustomDebugStringConvertible"
+- "Disposable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "MainScheduler"
+- "PriorityQueue"
+- "RxTime"
+- "RxTimeInterval"
+- "SchedulerType"
+- "SingleAssignmentDisposable"
+- "String"
+- !private "StringLiteralType"
+- "Time"
+- "VirtualSchedulerItem"
+- "VirtualTime"
+- "VirtualTimeConverterType"
+- "VirtualTimeInterval"
+- "VirtualTimeScheduler"
+- !private "_clock"
+- !private "_converter"
+- !private "_nextId"
+- !private "_running"
+- !private "_schedulerQueue"
+- !private "action"
+- !private "clock"
+- !private "disposable"
+- !private "fatalError"
+- !private "findNext"
+- !private "scheduleAbsoluteVirtual"
+- !private "time"
+depends-member:
+- !private ["23MultiplatformBleAdapter10CancelableP", "dispose"]
+- ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "insert"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "setDisposable"]
+- !private ["SL", "addingTimeInterval"]
+- !private ["23MultiplatformBleAdapter19CompositeDisposableC", ""]
+- !private ["23MultiplatformBleAdapter19CompositeDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter19CompositeDisposableC", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "CompositeDisposable"]
+- !private ["s28CustomDebugStringConvertibleP", "MainScheduler"]
+- !private ["s28CustomDebugStringConvertibleP", "PriorityQueue"]
+- ["s28CustomDebugStringConvertibleP", "SingleAssignmentDisposable"]
+- !private ["s28CustomDebugStringConvertibleP", "VirtualSchedulerItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_clock"]
+- !private ["s28CustomDebugStringConvertibleP", "_converter"]
+- !private ["s28CustomDebugStringConvertibleP", "_nextId"]
+- !private ["s28CustomDebugStringConvertibleP", "_running"]
+- !private ["s28CustomDebugStringConvertibleP", "_schedulerQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "adjustScheduledTime"]
+- !private ["s28CustomDebugStringConvertibleP", "clock"]
+- !private ["s28CustomDebugStringConvertibleP", "converter"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "disposable"]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "enqueue"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "findNext"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invoke"]
+- !private ["s28CustomDebugStringConvertibleP", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "nextId"]
+- ["s28CustomDebugStringConvertibleP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "peek"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "running"]
+- ["s28CustomDebugStringConvertibleP", "schedule"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduleAbsoluteVirtual"]
+- ["s28CustomDebugStringConvertibleP", "schedulePeriodic"]
+- ["s28CustomDebugStringConvertibleP", "scheduleRelative"]
+- !private ["s28CustomDebugStringConvertibleP", "schedulerQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "time"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["23MultiplatformBleAdapter10DisposableP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "action"]
+- ["23MultiplatformBleAdapter10DisposableP", "debugDescription"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "disposable"]
+- ["23MultiplatformBleAdapter10DisposableP", "dispose"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "id"]
+- ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "insert"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "invoke"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "isDisposed"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "setDisposable"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "time"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "dispose"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "insert"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "isDisposed"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "setDisposable"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SQ", ""]
+- !private ["SQ", "addingTimeInterval"]
+- !private ["SQ", "equal"]
+- !private ["SQ", "greaterThan"]
+- !private ["SQ", "lessThan"]
+- !private ["SQ", "lessThen"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "addingTimeInterval"]
+- !private ["SH", "equal"]
+- !private ["SH", "greaterThan"]
+- !private ["SH", "lessThan"]
+- !private ["SH", "lessThen"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "CompositeDisposable"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "MainScheduler"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "PriorityQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "VirtualSchedulerItem"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_clock"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_converter"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_nextId"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_running"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_schedulerQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "adjustScheduledTime"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "advanceTo"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "clock"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "converter"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "debugDescription"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "fatalError"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "findNext"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "nextId"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "now"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "running"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "schedule"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "scheduleAbsoluteVirtual"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "scheduleRelative"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "schedulerQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "sleep"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "stop"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", ""]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", "debugDescription"]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", "enqueue"]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", "init"]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", "peek"]
+- !private ["23MultiplatformBleAdapter13PriorityQueueV", "remove"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "CompositeDisposable"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "MainScheduler"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "PriorityQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "VirtualSchedulerItem"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_clock"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_converter"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_nextId"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_running"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_schedulerQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "adjustScheduledTime"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "advanceTo"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "clock"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "converter"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "debugDescription"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "fatalError"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "findNext"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "nextId"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "now"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "running"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "schedule"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "scheduleAbsoluteVirtual"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "scheduleRelative"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "schedulerQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "sleep"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "stop"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", ""]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "dispose"]
+- ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "setDisposable"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "Action"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "Bool"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "Disposable"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "Int"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "String"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", ""]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "action"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "debugDescription"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "deinit"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "disposable"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "dispose"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "id"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "init"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "invoke"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "isDisposed"]
+- ["23MultiplatformBleAdapter20VirtualSchedulerItemC", "time"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "equal"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "greaterThan"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "lessThan"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "lessThen"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "VirtualTimeIntervalUnit"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "VirtualTimeUnit"]
+- !private ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "compareVirtualTime"]
+- !private ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertFromVirtualTime"]
+- !private ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertToVirtualTime"]
+- !private ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "offsetVirtualTime"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "Bool"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "CompositeDisposable"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "Disposable"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "MainScheduler"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "PriorityQueue"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "RxTime"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "RxTimeInterval"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "String"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "VirtualSchedulerItem"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "VirtualTime"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "VirtualTimeInterval"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", ""]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "_clock"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "_converter"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "_nextId"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "_running"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "_schedulerQueue"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "adjustScheduledTime"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "advanceTo"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "clock"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "converter"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "debugDescription"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "deinit"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "fatalError"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "findNext"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "init"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "nextId"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "now"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "running"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "schedule"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "scheduleAbsoluteVirtual"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "schedulePeriodic"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "scheduleRelative"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "scheduleRelativeVirtual"]
+- !private ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "schedulerQueue"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "sleep"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "start"]
+- ["23MultiplatformBleAdapter20VirtualTimeSchedulerC", "stop"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+depends-nominal:
+- "23MultiplatformBleAdapter10CancelableP"
+- !private "SL"
+- !private "23MultiplatformBleAdapter19CompositeDisposableC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "23MultiplatformBleAdapter10DisposableP"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- "23MultiplatformBleAdapter22ImmediateSchedulerTypeP"
+- !private "23MultiplatformBleAdapter13MainSchedulerC"
+- !private "23MultiplatformBleAdapter13PriorityQueueV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "23MultiplatformBleAdapter13SchedulerTypeP"
+- "23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC"
+- "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "23MultiplatformBleAdapter20VirtualSchedulerItemC"
+- !private "23MultiplatformBleAdapter21VirtualTimeComparisonO"
+- "23MultiplatformBleAdapter24VirtualTimeConverterTypeP"
+- "23MultiplatformBleAdapter20VirtualTimeSchedulerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "21d261d5f12ad992313f890d46e3d3d3"

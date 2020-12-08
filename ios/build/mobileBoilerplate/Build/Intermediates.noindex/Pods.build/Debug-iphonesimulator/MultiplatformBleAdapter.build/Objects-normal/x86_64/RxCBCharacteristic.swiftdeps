@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCBCharacteristic"
+provides-nominal:
+- "23MultiplatformBleAdapter18RxCBCharacteristicC"
+provides-member:
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", ""]
+provides-dynamic-lookup:
+- "characteristic"
+- "descriptors"
+- "isEqualTo"
+- "isNotifying"
+- "objectId"
+- "properties"
+- "service"
+- "uuid"
+- "value"
+depends-top-level:
+- !private "==="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CBCharacteristic"
+- "CBCharacteristicProperties"
+- "CBUUID"
+- "CastingPrecedence"
+- "Data"
+- !private "ObjectIdentifier"
+- "RxCBCharacteristic"
+- !private "RxCBDescriptor"
+- !private "RxCBService"
+- "RxCharacteristicType"
+- "RxDescriptorType"
+- "RxServiceType"
+- "UInt"
+- !private "characteristic"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "map"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["So11CBAttributeC", ""]
+- !private ["So11CBAttributeC", "descriptors"]
+- !private ["So11CBAttributeC", "isNotifying"]
+- !private ["So11CBAttributeC", "properties"]
+- !private ["So11CBAttributeC", "service"]
+- !private ["So11CBAttributeC", "uuid"]
+- !private ["So11CBAttributeC", "value"]
+- !private ["So16CBCharacteristicC", "descriptors"]
+- !private ["So16CBCharacteristicC", "isNotifying"]
+- !private ["So16CBCharacteristicC", "properties"]
+- !private ["So16CBCharacteristicC", "service"]
+- !private ["So16CBCharacteristicC", "uuid"]
+- !private ["So16CBCharacteristicC", "value"]
+- !private ["s7CVarArgP", "descriptors"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNotifying"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "properties"]
+- !private ["s7CVarArgP", "service"]
+- !private ["s7CVarArgP", "uuid"]
+- !private ["s7CVarArgP", "value"]
+- !private ["Sl", ""]
+- !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptors"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNotifying"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "properties"]
+- !private ["s28CustomDebugStringConvertibleP", "service"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "descriptors"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNotifying"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "properties"]
+- !private ["s23CustomStringConvertibleP", "service"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", ""]
+- !private ["SQ", "descriptors"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isNotifying"]
+- !private ["SQ", "map"]
+- !private ["SQ", "properties"]
+- !private ["SQ", "service"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "descriptors"]
+- !private ["SH", "init"]
+- !private ["SH", "isNotifying"]
+- !private ["SH", "map"]
+- !private ["SH", "properties"]
+- !private ["SH", "service"]
+- !private ["SH", "uuid"]
+- !private ["SH", "value"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "descriptors"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "isNotifying"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "properties"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "service"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "uuid"]
+- !private ["23MultiplatformBleAdapter8LoggableP", "value"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "descriptors"]
+- !private ["So8NSObjectC", "isNotifying"]
+- !private ["So8NSObjectC", "properties"]
+- !private ["So8NSObjectC", "service"]
+- !private ["So8NSObjectC", "uuid"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "descriptors"]
+- !private ["So8NSObjectP", "isNotifying"]
+- !private ["So8NSObjectP", "properties"]
+- !private ["So8NSObjectP", "service"]
+- !private ["So8NSObjectP", "uuid"]
+- !private ["So8NSObjectP", "value"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["SO", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "descriptors"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "isNotifying"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "properties"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "service"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "uuid"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "value"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "Bool"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "CBCharacteristic"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "CBCharacteristicProperties"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "CBUUID"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "Data"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "ObjectIdentifier"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxCBCharacteristic"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxCBDescriptor"]
+- !private ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxCBService"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxCharacteristicType"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxDescriptorType"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "RxServiceType"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "UInt"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "characteristic"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "deinit"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "descriptors"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "init"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "isEqualTo"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "isNotifying"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "objectId"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "properties"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "service"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "uuid"]
+- ["23MultiplatformBleAdapter18RxCBCharacteristicC", "value"]
+- !private ["23MultiplatformBleAdapter14RxCBDescriptorC", ""]
+- !private ["23MultiplatformBleAdapter14RxCBDescriptorC", "init"]
+- !private ["23MultiplatformBleAdapter11RxCBServiceC", ""]
+- !private ["23MultiplatformBleAdapter11RxCBServiceC", "init"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "ObjectIdentifier"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "RxCBDescriptor"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "RxCBService"]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "UInt"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", ""]
+- !private ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "characteristic"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "descriptors"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "isEqualTo"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "isNotifying"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "objectId"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "properties"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "service"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "uuid"]
+- ["23MultiplatformBleAdapter20RxCharacteristicTypeP", "value"]
+- !private ["23MultiplatformBleAdapter16RxDescriptorTypeP", "init"]
+- !private ["23MultiplatformBleAdapter13RxServiceTypeP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "map"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNotifying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "properties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "service"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descriptors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isNotifying"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "properties"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "service"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uuid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "So11CBAttributeC"
+- !private "So16CBCharacteristicC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "23MultiplatformBleAdapter8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "SO"
+- !private "Sk"
+- !private "Sm"
+- !private "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- "23MultiplatformBleAdapter18RxCBCharacteristicC"
+- !private "23MultiplatformBleAdapter14RxCBDescriptorC"
+- !private "23MultiplatformBleAdapter11RxCBServiceC"
+- "23MultiplatformBleAdapter20RxCharacteristicTypeP"
+- !private "23MultiplatformBleAdapter16RxDescriptorTypeP"
+- !private "23MultiplatformBleAdapter13RxServiceTypeP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sx"
+- !private "Su"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "74df3e3f0c9b5c0d8746eeea18a0cca3"

@@ -1,0 +1,147 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricalSchedulerTimeConverter"
+provides-nominal:
+- "23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV"
+provides-member:
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "Date"
+- "HistoricalSchedulerTimeConverter"
+- "RxTime"
+- "RxTimeInterval"
+- "VirtualTimeComparison"
+- "VirtualTimeConverterType"
+- "VirtualTimeIntervalUnit"
+- "VirtualTimeUnit"
+depends-member:
+- !private ["SL", "addingTimeInterval"]
+- !private ["SL", "compare"]
+- ["So18NSComparisonResultV", "orderedAscending"]
+- ["So18NSComparisonResultV", "orderedDescending"]
+- ["So18NSComparisonResultV", "orderedSame"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "compare"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "compare"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "compare"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["Se", "compare"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SE", "compare"]
+- ["SQ", ""]
+- !private ["SQ", "addingTimeInterval"]
+- !private ["SQ", "compare"]
+- !private ["SQ", "equal"]
+- !private ["SQ", "greaterThan"]
+- !private ["SQ", "lessThan"]
+- ["SQ", "orderedAscending"]
+- ["SQ", "orderedDescending"]
+- ["SQ", "orderedSame"]
+- !private ["SH", ""]
+- !private ["SH", "addingTimeInterval"]
+- !private ["SH", "compare"]
+- !private ["SH", "equal"]
+- !private ["SH", "greaterThan"]
+- !private ["SH", "lessThan"]
+- ["SH", "orderedAscending"]
+- ["SH", "orderedDescending"]
+- ["SH", "orderedSame"]
+- !private ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "Date"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "RxTime"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "RxTimeInterval"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "VirtualTimeComparison"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "VirtualTimeIntervalUnit"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "VirtualTimeUnit"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", ""]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "compareVirtualTime"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "convertFromVirtualTime"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "convertFromVirtualTimeInterval"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "convertToVirtualTime"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "convertToVirtualTimeInterval"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "init"]
+- ["23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV", "offsetVirtualTime"]
+- ["SY", "orderedAscending"]
+- ["SY", "orderedDescending"]
+- ["SY", "orderedSame"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "compare"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "equal"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "greaterThan"]
+- !private ["23MultiplatformBleAdapter21VirtualTimeComparisonO", "lessThan"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "VirtualTimeIntervalUnit"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "VirtualTimeUnit"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", ""]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "compareVirtualTime"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertFromVirtualTime"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertFromVirtualTimeInterval"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertToVirtualTime"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "convertToVirtualTimeInterval"]
+- ["23MultiplatformBleAdapter24VirtualTimeConverterTypeP", "offsetVirtualTime"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "compare"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "compare"]
+depends-nominal:
+- !private "SL"
+- "So18NSComparisonResultV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- "23MultiplatformBleAdapter32HistoricalSchedulerTimeConverterV"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "23MultiplatformBleAdapter21VirtualTimeComparisonO"
+- "23MultiplatformBleAdapter24VirtualTimeConverterTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d2a189eabc28d6a4138412b51a175eaf"

@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainScheduler"
+provides-nominal:
+- "23MultiplatformBleAdapter13MainSchedulerC"
+provides-member:
+- ["23MultiplatformBleAdapter13MainSchedulerC", ""]
+provides-dynamic-lookup:
+- "_mainQueue"
+- "asyncInstance"
+- "ensureExecutingOnScheduler"
+- "instance"
+- "numberEnqueued"
+- "scheduleInternal"
+depends-top-level:
+- "!"
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "AtomicDecrement"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- "DispatchQueue"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MainScheduler"
+- "SerialDispatchQueueScheduler"
+- !private "SingleAssignmentDisposable"
+- "String"
+- !private "StringLiteralType"
+- !private "_mainQueue"
+- !private "numberEnqueued"
+- !private "rxFatalError"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "isMain"]
+- ["s7CVarArgP", "main"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "init"]
+- !private ["23MultiplatformBleAdapter10CancelableP", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "isMain"]
+- ["So18OS_dispatch_objectC", "main"]
+- ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "isMain"]
+- ["So17OS_dispatch_queueC", "main"]
+- ["23MultiplatformBleAdapter10DisposableP", ""]
+- !private ["23MultiplatformBleAdapter10DisposableP", "init"]
+- !private ["23MultiplatformBleAdapter10DisposableP", "isDisposed"]
+- ["23MultiplatformBleAdapter11DisposeBaseC", ""]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "init"]
+- !private ["23MultiplatformBleAdapter11DisposeBaseC", "isDisposed"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "isMain"]
+- ["SQ", "main"]
+- !private ["SH", "async"]
+- !private ["SH", "isMain"]
+- ["SH", "main"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "AtomicDecrement"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "AtomicIncrement"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "DispatchQueue"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "MainScheduler"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "_mainQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "ensureExecutingOnScheduler"]
+- ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "init"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "mainQueue"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "numberEnqueued"]
+- !private ["23MultiplatformBleAdapter22ImmediateSchedulerTypeP", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "AtomicDecrement"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "AtomicIncrement"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "AtomicInt"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "DispatchQueue"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "Disposable"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "MainScheduler"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "String"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "_mainQueue"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "asyncInstance"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "deinit"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "ensureExecutingOnScheduler"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "init"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "instance"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "mainQueue"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "numberEnqueued"]
+- !private ["23MultiplatformBleAdapter13MainSchedulerC", "rxFatalError"]
+- ["23MultiplatformBleAdapter13MainSchedulerC", "scheduleInternal"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMain"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMain"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "isMain"]
+- ["So9OS_objectC", "main"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "async"]
+- !private ["23MultiplatformBleAdapter18ReactiveCompatibleP", "isMain"]
+- ["23MultiplatformBleAdapter18ReactiveCompatibleP", "main"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "isMain"]
+- ["7Combine9SchedulerP", "main"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "AtomicDecrement"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "AtomicIncrement"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "DispatchQueue"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "MainScheduler"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "SerialDispatchQueueScheduler"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", ""]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "_mainQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "ensureExecutingOnScheduler"]
+- ["23MultiplatformBleAdapter13SchedulerTypeP", "init"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "mainQueue"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "numberEnqueued"]
+- !private ["23MultiplatformBleAdapter13SchedulerTypeP", "rxFatalError"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "AtomicDecrement"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "AtomicIncrement"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "AtomicInt"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "DispatchQueue"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "Disposable"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "MainScheduler"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "SerialDispatchQueueScheduler"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "SingleAssignmentDisposable"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "String"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", ""]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "_mainQueue"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "asyncInstance"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "init"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "instance"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "mainQueue"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "numberEnqueued"]
+- !private ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "rxFatalError"]
+- ["23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC", "scheduleInternal"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", ""]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "init"]
+- !private ["23MultiplatformBleAdapter26SingleAssignmentDisposableC", "isDisposed"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMain"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "23MultiplatformBleAdapter10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "23MultiplatformBleAdapter10DisposableP"
+- "23MultiplatformBleAdapter11DisposeBaseC"
+- "SQ"
+- "SH"
+- "23MultiplatformBleAdapter22ImmediateSchedulerTypeP"
+- "23MultiplatformBleAdapter13MainSchedulerC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "23MultiplatformBleAdapter18ReactiveCompatibleP"
+- "7Combine9SchedulerP"
+- "23MultiplatformBleAdapter13SchedulerTypeP"
+- "23MultiplatformBleAdapter28SerialDispatchQueueSchedulerC"
+- !private "23MultiplatformBleAdapter26SingleAssignmentDisposableC"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter-umbrella.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/BleClientManager.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiPlatformBLEAdapter.h"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/RxBluetoothKit.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/Hique/ime/telecom3.2/mpee/shark_tank/hackathon-boilerplate-mobile/ios/Pods/Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "20d0b404ee09e5735318b8d221ae04aa"
